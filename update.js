@@ -84,5 +84,5 @@ const prices = () => {
 
 prices()
   .then((data) => Object.keys(data).forEach((type) => {
-    fs.writeFile(path.join(__dirname, type), JSON.stringify(data[type], null, 2));
+    fs.writeFile(path.join(__dirname, `${type}.json`), JSON.stringify(data[type], null, 2));
   }));
