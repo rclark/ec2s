@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const pigeon = require('@mapbox/price-pigeon/lib/lib');
+const got = require('got');
 
 const regions = {
   'US East (N. Virginia)': 'us-east-1',
@@ -21,18 +21,19 @@ const regions = {
   'South America (São Paulo)': 'sa-east-1'
 };
 
-const regionalPrices = (priceData) => {
+const extractData = (priceData) => {
   return Object.keys(priceData.products).reduce((byType, key) => {
     const product = priceData.products[key];
 
     if (product.productFamily !== 'Compute Instance' || product.attributes.operatingSystem !== 'Linux')
       return byType;
 
-    if (!regions[product.attributes.location])
-      return byType;
+    const region = regions[product.attributes.location];
+    if (!region) return byType;
 
-    if (!byType[product.attributes.instanceType])
-      byType[product.attributes.instanceType] = { price: {} };
+    const type = product.attributes.instanceType;
+    if (!byType[type])
+      byType[type] = { price: {} };
 
     const terms = priceData.terms.OnDemand[product.sku];
     const skuOTC = Object.keys(terms)[0];
@@ -47,7 +48,7 @@ const regionalPrices = (priceData) => {
     const cpuUnits = cpus * 1024;
 
     const memoryString = product.attributes.memory;
-    const gbMemory = Number(memoryString.split(' ')[0]);
+    const gbMemory = Number(memoryString.split(' ')[0].replace(',', ''));
     const memoryUnits = gbMemory * 1024;
 
     const storageString = product.attributes.storage;
@@ -55,34 +56,25 @@ const regionalPrices = (priceData) => {
     const isSSD = /SSD$/.test(storageString);
     if (storageString !== 'EBS only') {
       gbStorage = Number(storageString.split(' x ')[0]) *
-                  Number(storageString.split(' x ')[1].replace(/ SSD| HDD/, ''));
+                  Number(storageString.split(' x ')[1]
+                    .replace(/ SSD| HDD|,/g, ''));
     }
 
-    Object.assign(byType[product.attributes.instanceType], {
+    Object.assign(byType[type], {
       cpus, gbMemory, gbStorage, isSSD, cpuUnits, memoryUnits
     });
 
     const price = parseFloat(priceString);
-    const previous = byType[product.attributes.instanceType]
-      .price[regions[[product.attributes.location]]] || 0;
-
-    byType[product.attributes.instanceType]
-      .price[regions[[product.attributes.location]]] = Math.max(previous, price);
+    const previous = byType[type].price[region] || 0;
+    byType[type].price[region] = Math.max(previous, price);
 
     return byType;
   }, {});
 };
 
-const prices = () => {
-  return new Promise((resolve, reject) => {
-    pigeon.getResponse(null, null, (err, data) => {
-      if (err) return reject(err);
-      resolve(regionalPrices(JSON.parse(data)));
-    });
-  });
-};
-
-prices()
+got.get('https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json')
+  .then((response) => JSON.parse(response.body))
+  .then((data) => extractData(data))
   .then((data) => Object.keys(data).forEach((type) => {
     fs.writeFile(path.join(__dirname, `${type}.json`), JSON.stringify(data[type], null, 2));
   }));
