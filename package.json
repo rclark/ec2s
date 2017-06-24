@@ -1,0 +1,16 @@
+{
+  "name": "ec2s",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rclark/ec2s",
+  "author": "Ryan Clark <ryan.clark.j@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@mapbox/cloudfriend": "^1.8.1",
+    "eslint": "^4.1.0",
+    "eslint-plugin-node": "^5.0.0"
+  },
+  "dependencies": {
+    "@mapbox/price-pigeon": "^1.2.3"
+  }
+}
