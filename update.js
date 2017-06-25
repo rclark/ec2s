@@ -18,7 +18,9 @@ const regions = {
   'Asia Pacific (Singapore)': 'ap-southeast-1',
   'Asia Pacific (Sydney)': 'ap-southeast-2',
   'Asia Pacific (Mumbai)': 'ap-south-1',
-  'South America (São Paulo)': 'sa-east-1'
+  'South America (São Paulo)': 'sa-east-1',
+  'South America (Sao Paulo)': 'sa-east-1',
+  'AWS GovCloud (US)': 'us-gov-west-1'
 };
 
 const i3shim = {

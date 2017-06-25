@@ -1,4 +1,26 @@
 {
+  "c3.large": {
+    "type": "c3.large",
+    "cpus": 2,
+    "memory": 3.75,
+    "storage": 32,
+    "SSD": true,
+    "cpuUnits": 2048,
+    "memoryUnits": 3840,
+    "price": {
+      "ap-southeast-2": 0.132,
+      "us-west-1": 0.12,
+      "ap-northeast-1": 0.128,
+      "us-east-1": 0.105,
+      "ap-southeast-1": 0.132,
+      "eu-west-1": 0.12,
+      "us-west-2": 0.105,
+      "us-gov-west-1": 0.126,
+      "eu-central-1": 0.129,
+      "ap-northeast-2": 0.115,
+      "sa-east-1": 0.163
+    }
+  },
   "i3.2xlarge": {
     "type": "i3.2xlarge",
     "cpus": 8,
@@ -12,10 +34,12 @@
       "us-west-2": 0.624,
       "eu-west-2": 0.724,
       "ap-southeast-2": 0.748,
+      "us-gov-west-1": 0.752,
       "ap-northeast-2": 0.732,
       "ap-southeast-1": 0.748,
       "us-east-1": 0.624,
       "eu-west-1": 0.688,
+      "sa-east-1": 1.144,
       "ap-northeast-1": 0.732,
       "eu-central-1": 0.744,
       "us-west-1": 0.688,
@@ -35,6 +59,7 @@
       "eu-west-1": 4.7424,
       "ap-southeast-2": 5.1072,
       "ap-south-1": 4.864,
+      "us-gov-west-1": 5.1072,
       "ap-northeast-1": 5.12,
       "eu-west-2": 4.992,
       "ap-southeast-1": 5.12,
@@ -44,7 +69,8 @@
       "us-west-2": 4.256,
       "us-east-2": 4.256,
       "eu-central-1": 5.1216,
-      "us-west-1": 4.7424
+      "us-west-1": 4.7424,
+      "sa-east-1": 8.96
     }
   },
   "i2.2xlarge": {
@@ -61,6 +87,7 @@
       "us-east-1": 1.705,
       "ap-southeast-1": 2.035,
       "ap-southeast-2": 2.035,
+      "us-gov-west-1": 2.046,
       "ap-south-1": 1.933,
       "us-west-2": 1.705,
       "eu-west-1": 1.876,
@@ -89,7 +116,9 @@
       "us-east-1": 1.591,
       "ap-south-1": 1.756,
       "eu-west-1": 1.811,
+      "sa-east-1": 2.47,
       "eu-central-1": 1.817,
+      "us-gov-west-1": 1.915,
       "us-west-1": 1.993
     }
   },
@@ -103,12 +132,14 @@
     "memoryUnits": 7680,
     "price": {
       "ap-northeast-1": 0.255,
+      "sa-east-1": 0.325,
       "us-east-1": 0.21,
       "us-west-2": 0.21,
       "ap-southeast-2": 0.265,
       "us-west-1": 0.239,
       "ap-northeast-2": 0.23,
       "eu-west-1": 0.239,
+      "us-gov-west-1": 0.252,
       "eu-central-1": 0.258,
       "ap-southeast-1": 0.265
     }
@@ -127,7 +158,9 @@
       "us-west-1": 2.3712,
       "us-east-2": 2.128,
       "ap-southeast-2": 2.5536,
+      "sa-east-1": 4.48,
       "us-east-1": 2.128,
+      "us-gov-west-1": 2.5536,
       "eu-central-1": 2.5608,
       "ap-northeast-1": 2.56,
       "eu-west-2": 2.496,
@@ -156,6 +189,7 @@
       "eu-west-2": 16.806,
       "ap-southeast-2": 19.341,
       "ap-northeast-2": 19.341,
+      "us-gov-west-1": 16.006,
       "ap-northeast-1": 19.341,
       "ap-southeast-1": 19.341
     }
@@ -170,6 +204,7 @@
     "memoryUnits": 15616,
     "price": {
       "ap-southeast-2": 0.2,
+      "us-gov-west-1": 0.2,
       "eu-west-1": 0.185,
       "eu-central-1": 0.2,
       "us-east-2": 0.166,
@@ -177,6 +212,7 @@
       "us-west-1": 0.185,
       "ap-southeast-1": 0.2,
       "ap-northeast-2": 0.2,
+      "sa-east-1": 0.35,
       "us-west-2": 0.166,
       "ap-south-1": 0.19,
       "ap-northeast-1": 0.2
@@ -192,6 +228,7 @@
     "memoryUnits": 15616,
     "price": {
       "eu-west-2": 0.181,
+      "us-gov-west-1": 0.188,
       "us-east-1": 0.156,
       "us-west-2": 0.156,
       "eu-west-1": 0.172,
@@ -200,6 +237,7 @@
       "us-east-2": 0.156,
       "ap-northeast-1": 0.183,
       "ap-south-1": 0.177,
+      "sa-east-1": 0.286,
       "ca-central-1": 0.172,
       "eu-central-1": 0.186,
       "ap-southeast-1": 0.187,
@@ -220,6 +258,7 @@
       "eu-central-1": 1.013,
       "ap-northeast-2": 1.001,
       "us-west-1": 0.938,
+      "us-gov-west-1": 1.023,
       "ap-northeast-1": 1.001,
       "us-east-2": 0.853,
       "ap-south-1": 0.967,
@@ -238,11 +277,13 @@
     "memoryUnits": 35020.8,
     "price": {
       "us-east-1": 0.49,
+      "sa-east-1": 0.645,
       "ap-northeast-1": 0.575,
       "ap-southeast-2": 0.592,
       "eu-west-1": 0.55,
       "ap-southeast-1": 0.592,
       "us-west-1": 0.55,
+      "us-gov-west-1": 0.586,
       "us-west-2": 0.49
     }
   },
@@ -256,8 +297,10 @@
     "memoryUnits": 65536,
     "price": {
       "us-east-1": 0.8,
+      "sa-east-1": 1.272,
       "us-west-1": 0.936,
       "ca-central-1": 0.888,
+      "us-gov-west-1": 1.008,
       "ap-south-1": 0.984,
       "ap-southeast-1": 1,
       "eu-west-1": 0.888,
@@ -268,6 +311,30 @@
       "us-west-2": 0.8,
       "us-east-2": 0.8,
       "ap-southeast-2": 1
+    }
+  },
+  "r3.2xlarge": {
+    "type": "r3.2xlarge",
+    "cpus": 8,
+    "memory": 61,
+    "storage": 160,
+    "SSD": true,
+    "cpuUnits": 8192,
+    "memoryUnits": 62464,
+    "price": {
+      "sa-east-1": 1.399,
+      "ap-southeast-2": 0.798,
+      "us-east-2": 0.665,
+      "us-west-2": 0.665,
+      "us-east-1": 0.665,
+      "eu-central-1": 0.8,
+      "ap-south-1": 0.758,
+      "ap-northeast-1": 0.798,
+      "us-gov-west-1": 0.798,
+      "ap-southeast-1": 0.798,
+      "eu-west-1": 0.741,
+      "ap-northeast-2": 0.798,
+      "us-west-1": 0.741
     }
   },
   "r4.4xlarge": {
@@ -281,6 +348,7 @@
     "price": {
       "ap-southeast-1": 1.28,
       "eu-west-2": 1.248,
+      "us-gov-west-1": 1.2768,
       "us-west-2": 1.064,
       "eu-west-1": 1.1856,
       "ap-south-1": 1.216,
@@ -291,6 +359,7 @@
       "us-east-2": 1.064,
       "ap-northeast-2": 1.28,
       "ap-southeast-2": 1.2768,
+      "sa-east-1": 2.24,
       "eu-central-1": 1.2804
     }
   },
@@ -313,8 +382,10 @@
       "eu-central-1": 3.84,
       "ap-northeast-2": 3.936,
       "us-east-1": 3.2,
+      "us-gov-west-1": 4.032,
       "ap-southeast-1": 4,
       "us-east-2": 3.2,
+      "sa-east-1": 5.088,
       "ca-central-1": 3.552
     }
   },
@@ -327,6 +398,7 @@
     "cpuUnits": 4096,
     "memoryUnits": 16384,
     "price": {
+      "sa-east-1": 0.318,
       "us-west-2": 0.2,
       "eu-west-2": 0.232,
       "ap-southeast-2": 0.25,
@@ -335,6 +407,7 @@
       "ap-northeast-2": 0.246,
       "us-west-1": 0.234,
       "ca-central-1": 0.222,
+      "us-gov-west-1": 0.252,
       "ap-south-1": 0.246,
       "eu-west-1": 0.222,
       "eu-central-1": 0.24,
@@ -357,34 +430,13 @@
       "us-east-1": 6.669,
       "eu-west-2": 8.403,
       "us-east-2": 6.669,
+      "us-gov-west-1": 8.003,
       "ca-central-1": 7.336,
       "ap-northeast-2": 9.671,
       "ap-southeast-2": 9.671,
       "eu-central-1": 9.337,
       "ap-southeast-1": 9.671,
       "ap-south-1": 9.187
-    }
-  },
-  "r3.2xlarge": {
-    "type": "r3.2xlarge",
-    "cpus": 8,
-    "memory": 61,
-    "storage": 160,
-    "SSD": true,
-    "cpuUnits": 8192,
-    "memoryUnits": 62464,
-    "price": {
-      "ap-southeast-2": 0.798,
-      "us-east-2": 0.665,
-      "us-west-2": 0.665,
-      "us-east-1": 0.665,
-      "eu-central-1": 0.8,
-      "ap-south-1": 0.758,
-      "ap-northeast-1": 0.798,
-      "ap-southeast-1": 0.798,
-      "eu-west-1": 0.741,
-      "ap-northeast-2": 0.798,
-      "us-west-1": 0.741
     }
   },
   "g2.8xlarge": {
@@ -422,7 +474,9 @@
       "us-east-1": 0.35,
       "us-west-1": 0.379,
       "eu-west-1": 0.379,
-      "ap-southeast-1": 0.467
+      "sa-east-1": 0.467,
+      "ap-southeast-1": 0.467,
+      "us-gov-west-1": 0.423
     }
   },
   "d2.xlarge": {
@@ -460,7 +514,9 @@
     "price": {
       "ap-southeast-2": 0.374,
       "us-east-2": 0.312,
+      "sa-east-1": 0.572,
       "ap-northeast-1": 0.366,
+      "us-gov-west-1": 0.376,
       "us-west-1": 0.344,
       "ap-northeast-2": 0.366,
       "eu-west-1": 0.344,
@@ -473,6 +529,32 @@
       "ca-central-1": 0.344
     }
   },
+  "t2.large": {
+    "type": "t2.large",
+    "cpus": 2,
+    "memory": 8,
+    "storage": 0,
+    "SSD": false,
+    "cpuUnits": 2048,
+    "memoryUnits": 8192,
+    "price": {
+      "us-gov-west-1": 0.112,
+      "ap-southeast-1": 0.12,
+      "us-east-1": 0.094,
+      "sa-east-1": 0.162,
+      "ap-south-1": 0.119,
+      "us-east-2": 0.094,
+      "ap-southeast-2": 0.128,
+      "us-west-2": 0.094,
+      "eu-west-1": 0.101,
+      "eu-central-1": 0.108,
+      "eu-west-2": 0.106,
+      "ap-northeast-1": 0.128,
+      "us-west-1": 0.122,
+      "ap-northeast-2": 0.128,
+      "ca-central-1": 0.103
+    }
+  },
   "r4.xlarge": {
     "type": "r4.xlarge",
     "cpus": 4,
@@ -483,6 +565,7 @@
     "memoryUnits": 31232,
     "price": {
       "us-west-1": 0.2964,
+      "us-gov-west-1": 0.3192,
       "ap-southeast-1": 0.32,
       "eu-central-1": 0.3201,
       "us-west-2": 0.266,
@@ -493,6 +576,7 @@
       "eu-west-2": 0.312,
       "ca-central-1": 0.292,
       "ap-northeast-2": 0.32,
+      "sa-east-1": 0.56,
       "us-east-1": 0.266,
       "ap-northeast-1": 0.32
     }
@@ -522,10 +606,12 @@
     "cpuUnits": 4096,
     "memoryUnits": 7680,
     "price": {
+      "sa-east-1": 0.309,
       "ap-northeast-2": 0.227,
       "ap-south-1": 0.22,
       "ap-southeast-1": 0.231,
       "eu-central-1": 0.227,
+      "us-gov-west-1": 0.239,
       "us-west-1": 0.249,
       "eu-west-1": 0.226,
       "eu-west-2": 0.237,
@@ -552,6 +638,8 @@
       "us-east-1": 0.532,
       "ap-southeast-2": 0.745,
       "us-west-1": 0.616,
+      "us-gov-west-1": 0.672,
+      "sa-east-1": 0.761,
       "eu-central-1": 0.632,
       "ap-southeast-1": 0.784,
       "us-west-2": 0.532
@@ -566,7 +654,9 @@
     "cpuUnits": 40960,
     "memoryUnits": 163840,
     "price": {
+      "us-gov-west-1": 2.52,
       "eu-central-1": 2.4,
+      "sa-east-1": 3.18,
       "us-east-2": 2,
       "ap-southeast-1": 2.5,
       "us-west-2": 2,
@@ -590,12 +680,14 @@
     "cpuUnits": 65536,
     "memoryUnits": 499712,
     "price": {
+      "sa-east-1": 9.152,
       "us-east-2": 4.992,
       "us-east-1": 4.992,
       "ap-southeast-1": 5.984,
       "ca-central-1": 5.504,
       "ap-southeast-2": 5.984,
       "us-west-1": 5.504,
+      "us-gov-west-1": 6.016,
       "eu-west-1": 5.504,
       "ap-northeast-1": 5.856,
       "eu-central-1": 5.952,
@@ -616,6 +708,7 @@
     "price": {
       "ap-northeast-1": 0.504,
       "eu-west-1": 0.453,
+      "us-gov-west-1": 0.479,
       "us-east-1": 0.398,
       "ap-southeast-1": 0.462,
       "ap-northeast-2": 0.454,
@@ -624,6 +717,7 @@
       "us-west-2": 0.398,
       "ap-southeast-2": 0.522,
       "ca-central-1": 0.438,
+      "sa-east-1": 0.618,
       "eu-west-2": 0.476,
       "eu-central-1": 0.454,
       "us-west-1": 0.498
@@ -656,32 +750,14 @@
       "ap-southeast-1": 0.098,
       "us-east-1": 0.067,
       "ap-southeast-2": 0.093,
+      "us-gov-west-1": 0.084,
+      "sa-east-1": 0.095,
       "us-west-2": 0.067,
       "ap-northeast-2": 0.091,
       "eu-central-1": 0.079,
       "eu-west-1": 0.073,
       "ap-northeast-1": 0.096,
       "us-west-1": 0.077
-    }
-  },
-  "c3.large": {
-    "type": "c3.large",
-    "cpus": 2,
-    "memory": 3.75,
-    "storage": 32,
-    "SSD": true,
-    "cpuUnits": 2048,
-    "memoryUnits": 3840,
-    "price": {
-      "ap-southeast-2": 0.132,
-      "us-west-1": 0.12,
-      "ap-northeast-1": 0.128,
-      "us-east-1": 0.105,
-      "ap-southeast-1": 0.132,
-      "eu-west-1": 0.12,
-      "us-west-2": 0.105,
-      "eu-central-1": 0.129,
-      "ap-northeast-2": 0.115
     }
   },
   "i3.8xlarge": {
@@ -701,11 +777,13 @@
       "eu-central-1": 2.976,
       "ap-northeast-2": 2.928,
       "us-west-2": 2.496,
+      "us-gov-west-1": 3.008,
       "us-east-2": 2.496,
       "eu-west-1": 2.752,
       "ap-southeast-2": 2.992,
       "ap-south-1": 2.832,
-      "ap-northeast-1": 2.928
+      "ap-northeast-1": 2.928,
+      "sa-east-1": 4.576
     }
   },
   "m2.4xlarge": {
@@ -721,9 +799,11 @@
       "ap-southeast-1": 1.183,
       "us-west-1": 1.1,
       "ap-southeast-2": 1.183,
+      "us-gov-west-1": 1.171,
       "us-west-2": 0.98,
       "eu-west-1": 1.1,
-      "ap-northeast-1": 1.15
+      "ap-northeast-1": 1.15,
+      "sa-east-1": 1.291
     }
   },
   "i3.4xlarge": {
@@ -747,7 +827,32 @@
       "ap-northeast-1": 1.464,
       "ap-southeast-2": 1.496,
       "ca-central-1": 1.376,
-      "eu-west-1": 1.376
+      "us-gov-west-1": 1.504,
+      "eu-west-1": 1.376,
+      "sa-east-1": 2.288
+    }
+  },
+  "i2.4xlarge": {
+    "type": "i2.4xlarge",
+    "cpus": 16,
+    "memory": 122,
+    "storage": 3200,
+    "SSD": true,
+    "cpuUnits": 16384,
+    "memoryUnits": 124928,
+    "price": {
+      "us-east-1": 3.41,
+      "ap-northeast-2": 4.002,
+      "ap-southeast-1": 4.07,
+      "ap-southeast-2": 4.07,
+      "eu-west-1": 3.751,
+      "us-east-2": 3.41,
+      "eu-central-1": 4.051,
+      "us-gov-west-1": 4.092,
+      "ap-northeast-1": 4.002,
+      "ap-south-1": 3.867,
+      "us-west-2": 3.41,
+      "us-west-1": 3.751
     }
   },
   "d2.4xlarge": {
@@ -789,7 +894,9 @@
       "ap-southeast-1": 0.655,
       "us-west-1": 0.592,
       "ap-southeast-2": 0.655,
-      "ap-northeast-1": 0.632
+      "ap-northeast-1": 0.632,
+      "sa-east-1": 0.718,
+      "us-gov-west-1": 0.628
     }
   },
   "cc2.8xlarge": {
@@ -804,7 +911,8 @@
       "eu-west-1": 2.25,
       "ap-northeast-1": 2.349,
       "us-west-2": 2,
-      "us-east-1": 2
+      "us-east-1": 2,
+      "us-gov-west-1": 2.25
     }
   },
   "d2.2xlarge": {
@@ -831,28 +939,6 @@
       "ap-southeast-2": 1.74
     }
   },
-  "i2.4xlarge": {
-    "type": "i2.4xlarge",
-    "cpus": 16,
-    "memory": 122,
-    "storage": 3200,
-    "SSD": true,
-    "cpuUnits": 16384,
-    "memoryUnits": 124928,
-    "price": {
-      "us-east-1": 3.41,
-      "ap-northeast-2": 4.002,
-      "ap-southeast-1": 4.07,
-      "ap-southeast-2": 4.07,
-      "eu-west-1": 3.751,
-      "us-east-2": 3.41,
-      "eu-central-1": 4.051,
-      "ap-northeast-1": 4.002,
-      "ap-south-1": 3.867,
-      "us-west-2": 3.41,
-      "us-west-1": 3.751
-    }
-  },
   "c4.4xlarge": {
     "type": "c4.4xlarge",
     "cpus": 16,
@@ -865,8 +951,10 @@
       "ap-northeast-2": 0.907,
       "ap-northeast-1": 1.008,
       "ap-southeast-2": 1.042,
+      "us-gov-west-1": 0.958,
       "eu-central-1": 0.909,
       "us-east-1": 0.796,
+      "sa-east-1": 1.235,
       "ap-south-1": 0.878,
       "eu-west-2": 0.95,
       "ap-southeast-1": 0.924,
@@ -890,13 +978,39 @@
       "ap-northeast-1": 3.192,
       "us-east-1": 2.66,
       "ap-south-1": 3.032,
+      "sa-east-1": 5.597,
       "ap-northeast-2": 3.192,
       "us-west-1": 2.964,
       "ap-southeast-1": 3.192,
       "eu-west-1": 2.964,
       "ap-southeast-2": 3.192,
       "eu-central-1": 3.201,
-      "us-west-2": 2.66
+      "us-west-2": 2.66,
+      "us-gov-west-1": 3.192
+    }
+  },
+  "r3.4xlarge": {
+    "type": "r3.4xlarge",
+    "cpus": 16,
+    "memory": 122,
+    "storage": 320,
+    "SSD": true,
+    "cpuUnits": 16384,
+    "memoryUnits": 124928,
+    "price": {
+      "eu-central-1": 1.6,
+      "ap-northeast-2": 1.596,
+      "ap-south-1": 1.516,
+      "us-west-1": 1.482,
+      "us-west-2": 1.33,
+      "us-gov-west-1": 1.596,
+      "eu-west-1": 1.482,
+      "ap-southeast-2": 1.596,
+      "ap-southeast-1": 1.596,
+      "us-east-1": 1.33,
+      "ap-northeast-1": 1.596,
+      "us-east-2": 1.33,
+      "sa-east-1": 2.799
     }
   },
   "r3.xlarge": {
@@ -908,7 +1022,9 @@
     "cpuUnits": 4096,
     "memoryUnits": 31232,
     "price": {
+      "sa-east-1": 0.7,
       "ap-northeast-2": 0.399,
+      "us-gov-west-1": 0.399,
       "ap-southeast-2": 0.399,
       "eu-central-1": 0.4,
       "ap-southeast-1": 0.399,
@@ -931,6 +1047,7 @@
     "memoryUnits": 512,
     "price": {
       "us-west-2": 0.0059,
+      "us-gov-west-1": 0.0068,
       "eu-west-2": 0.0066,
       "ap-southeast-1": 0.0075,
       "eu-west-1": 0.0063,
@@ -938,6 +1055,7 @@
       "ca-central-1": 0.0065,
       "us-east-1": 0.0059,
       "eu-central-1": 0.0068,
+      "sa-east-1": 0.0101,
       "ap-northeast-1": 0.008,
       "ap-south-1": 0.0074,
       "ap-northeast-2": 0.008,
@@ -959,6 +1077,7 @@
       "eu-central-1": 8.102,
       "ap-southeast-1": 8.14,
       "ap-southeast-2": 8.14,
+      "us-gov-west-1": 8.184,
       "ap-south-1": 7.733,
       "us-east-1": 6.82,
       "us-east-2": 6.82,
@@ -976,6 +1095,8 @@
     "cpuUnits": 2048,
     "memoryUnits": 7680,
     "price": {
+      "sa-east-1": 0.19,
+      "us-gov-west-1": 0.168,
       "ap-northeast-1": 0.193,
       "us-west-1": 0.154,
       "us-west-2": 0.133,
@@ -1022,6 +1143,8 @@
       "eu-central-1": 0.6402,
       "eu-west-2": 0.624,
       "us-west-1": 0.5928,
+      "us-gov-west-1": 0.6384,
+      "sa-east-1": 1.12,
       "us-east-2": 0.532,
       "ap-south-1": 0.608,
       "ap-northeast-1": 0.64
@@ -1040,6 +1163,7 @@
       "ap-south-1": 0.11,
       "ap-southeast-1": 0.115,
       "us-west-1": 0.124,
+      "sa-east-1": 0.155,
       "eu-west-1": 0.113,
       "ap-northeast-1": 0.126,
       "us-east-2": 0.1,
@@ -1048,6 +1172,7 @@
       "ap-northeast-2": 0.114,
       "eu-central-1": 0.114,
       "ap-southeast-2": 0.13,
+      "us-gov-west-1": 0.12,
       "us-east-1": 0.1
     }
   },
@@ -1060,6 +1185,7 @@
     "cpuUnits": 8192,
     "memoryUnits": 15360,
     "price": {
+      "us-gov-west-1": 0.504,
       "us-east-1": 0.42,
       "us-west-2": 0.42,
       "ap-northeast-1": 0.511,
@@ -1068,7 +1194,8 @@
       "ap-southeast-2": 0.529,
       "ap-southeast-1": 0.529,
       "eu-west-1": 0.478,
-      "eu-central-1": 0.516
+      "eu-central-1": 0.516,
+      "sa-east-1": 0.65
     }
   },
   "d2.8xlarge": {
@@ -1110,7 +1237,9 @@
       "ap-northeast-1": 0.287,
       "ap-southeast-1": 0.296,
       "us-east-1": 0.245,
-      "us-west-2": 0.245
+      "sa-east-1": 0.323,
+      "us-west-2": 0.245,
+      "us-gov-west-1": 0.293
     }
   },
   "m1.large": {
@@ -1126,9 +1255,31 @@
       "us-west-1": 0.19,
       "us-east-1": 0.175,
       "ap-northeast-1": 0.243,
+      "sa-east-1": 0.233,
       "ap-southeast-1": 0.233,
+      "us-gov-west-1": 0.211,
       "eu-west-1": 0.19,
       "ap-southeast-2": 0.233
+    }
+  },
+  "g2.2xlarge": {
+    "type": "g2.2xlarge",
+    "cpus": 8,
+    "memory": 15,
+    "storage": 60,
+    "SSD": true,
+    "cpuUnits": 8192,
+    "memoryUnits": 15360,
+    "price": {
+      "ap-southeast-1": 1,
+      "ap-northeast-1": 0.898,
+      "us-east-1": 0.65,
+      "eu-west-1": 0.702,
+      "us-west-1": 0.702,
+      "eu-central-1": 0.772,
+      "ap-northeast-2": 0.898,
+      "us-west-2": 0.65,
+      "ap-southeast-2": 0.898
     }
   },
   "t2.2xlarge": {
@@ -1144,6 +1295,7 @@
       "eu-central-1": 0.432,
       "ap-south-1": 0.476,
       "us-west-2": 0.376,
+      "sa-east-1": 0.648,
       "ap-northeast-1": 0.512,
       "ap-southeast-1": 0.48,
       "eu-west-2": 0.424,
@@ -1151,6 +1303,7 @@
       "us-east-1": 0.376,
       "eu-west-1": 0.404,
       "ap-southeast-2": 0.512,
+      "us-gov-west-1": 0.448,
       "us-east-2": 0.376,
       "ap-northeast-2": 0.512
     }
@@ -1166,8 +1319,10 @@
     "price": {
       "ap-northeast-1": 0.516,
       "us-west-1": 0.468,
+      "us-gov-west-1": 0.504,
       "ap-southeast-2": 0.5,
       "us-east-2": 0.4,
+      "sa-east-1": 0.636,
       "ap-southeast-1": 0.5,
       "eu-central-1": 0.48,
       "eu-west-1": 0.444,
@@ -1190,9 +1345,11 @@
     "price": {
       "ap-northeast-1": 0.129,
       "ap-south-1": 0.123,
+      "sa-east-1": 0.159,
       "ap-southeast-1": 0.125,
       "eu-west-2": 0.116,
       "us-east-2": 0.1,
+      "us-gov-west-1": 0.126,
       "us-east-1": 0.1,
       "ap-northeast-2": 0.123,
       "eu-central-1": 0.12,
@@ -1218,33 +1375,11 @@
       "ap-southeast-1": 1.058,
       "eu-central-1": 1.032,
       "us-west-1": 0.956,
+      "us-gov-west-1": 1.008,
       "us-west-2": 0.84,
       "ap-southeast-2": 1.058,
-      "us-east-1": 0.84
-    }
-  },
-  "t2.large": {
-    "type": "t2.large",
-    "cpus": 2,
-    "memory": 8,
-    "storage": 0,
-    "SSD": false,
-    "cpuUnits": 2048,
-    "memoryUnits": 8192,
-    "price": {
-      "ap-southeast-1": 0.12,
-      "us-east-1": 0.094,
-      "ap-south-1": 0.119,
-      "us-east-2": 0.094,
-      "ap-southeast-2": 0.128,
-      "us-west-2": 0.094,
-      "eu-west-1": 0.101,
-      "eu-central-1": 0.108,
-      "eu-west-2": 0.106,
-      "ap-northeast-1": 0.128,
-      "us-west-1": 0.122,
-      "ap-northeast-2": 0.128,
-      "ca-central-1": 0.103
+      "us-east-1": 0.84,
+      "sa-east-1": 1.3
     }
   },
   "m3.xlarge": {
@@ -1258,12 +1393,14 @@
     "price": {
       "ap-northeast-1": 0.385,
       "ap-southeast-1": 0.392,
+      "sa-east-1": 0.381,
       "ap-northeast-2": 0.366,
       "us-west-1": 0.308,
       "eu-central-1": 0.315,
       "us-west-2": 0.266,
       "eu-west-1": 0.293,
       "us-east-1": 0.266,
+      "us-gov-west-1": 0.336,
       "ap-southeast-2": 0.372
     }
   },
@@ -1280,9 +1417,11 @@
       "eu-central-1": 0.16005,
       "eu-west-2": 0.156,
       "us-west-1": 0.1482,
+      "sa-east-1": 0.28,
       "eu-west-1": 0.1482,
       "us-west-2": 0.133,
       "us-east-2": 0.133,
+      "us-gov-west-1": 0.1596,
       "ap-south-1": 0.152,
       "us-east-1": 0.133,
       "ap-northeast-1": 0.16,
@@ -1303,9 +1442,11 @@
       "us-west-1": 1.912,
       "eu-central-1": 2.064,
       "ap-southeast-2": 2.117,
+      "us-gov-west-1": 2.016,
       "us-west-2": 1.68,
       "ap-northeast-2": 1.839,
       "eu-west-1": 1.912,
+      "sa-east-1": 2.6,
       "us-east-1": 1.68,
       "ap-southeast-1": 2.117,
       "ap-northeast-1": 2.043
@@ -1324,7 +1465,9 @@
       "ap-northeast-1": 0.026,
       "ap-southeast-2": 0.02,
       "us-west-2": 0.02,
+      "us-gov-west-1": 0.024,
       "us-west-1": 0.025,
+      "sa-east-1": 0.027,
       "eu-west-1": 0.02,
       "ap-southeast-1": 0.02
     }
@@ -1341,11 +1484,13 @@
       "ap-south-1": 0.03,
       "eu-central-1": 0.027,
       "us-west-2": 0.023,
+      "us-gov-west-1": 0.028,
       "ap-northeast-2": 0.032,
       "ap-northeast-1": 0.032,
       "ap-southeast-1": 0.03,
       "us-west-1": 0.031,
       "us-east-2": 0.023,
+      "sa-east-1": 0.041,
       "us-east-1": 0.023,
       "eu-west-1": 0.025,
       "ap-southeast-2": 0.032,
@@ -1364,31 +1509,53 @@
     "price": {
       "us-east-1": 0.044,
       "us-west-1": 0.047,
+      "sa-east-1": 0.058,
       "ap-northeast-1": 0.061,
       "eu-west-1": 0.047,
       "ap-southeast-1": 0.058,
+      "us-gov-west-1": 0.053,
       "ap-southeast-2": 0.058,
       "us-west-2": 0.044
     }
   },
-  "g2.2xlarge": {
-    "type": "g2.2xlarge",
-    "cpus": 8,
-    "memory": 15,
-    "storage": 60,
-    "SSD": true,
-    "cpuUnits": 8192,
-    "memoryUnits": 15360,
+  "c1.medium": {
+    "type": "c1.medium",
+    "cpus": 2,
+    "memory": 1.7,
+    "storage": 350,
+    "SSD": false,
+    "cpuUnits": 2048,
+    "memoryUnits": 1740.8,
     "price": {
-      "ap-southeast-1": 1,
-      "ap-northeast-1": 0.898,
-      "us-east-1": 0.65,
-      "eu-west-1": 0.702,
-      "us-west-1": 0.702,
-      "eu-central-1": 0.772,
-      "ap-northeast-2": 0.898,
-      "us-west-2": 0.65,
-      "ap-southeast-2": 0.898
+      "us-west-2": 0.13,
+      "sa-east-1": 0.179,
+      "us-east-1": 0.13,
+      "ap-northeast-1": 0.158,
+      "ap-southeast-1": 0.164,
+      "us-west-1": 0.148,
+      "ap-southeast-2": 0.164,
+      "us-gov-west-1": 0.157,
+      "eu-west-1": 0.148
+    }
+  },
+  "m1.medium": {
+    "type": "m1.medium",
+    "cpus": 1,
+    "memory": 3.75,
+    "storage": 410,
+    "SSD": false,
+    "cpuUnits": 1024,
+    "memoryUnits": 3840,
+    "price": {
+      "sa-east-1": 0.117,
+      "ap-southeast-2": 0.117,
+      "us-west-2": 0.087,
+      "eu-west-1": 0.095,
+      "us-gov-west-1": 0.106,
+      "ap-northeast-1": 0.122,
+      "us-east-1": 0.087,
+      "us-west-1": 0.095,
+      "ap-southeast-1": 0.117
     }
   },
   "cr1.8xlarge": {
@@ -1422,70 +1589,14 @@
       "ca-central-1": 0.206,
       "us-west-1": 0.244,
       "eu-central-1": 0.216,
+      "us-gov-west-1": 0.224,
       "us-east-2": 0.188,
+      "sa-east-1": 0.324,
       "eu-west-1": 0.202,
       "us-west-2": 0.188,
       "ap-southeast-2": 0.256,
       "eu-west-2": 0.212,
       "ap-south-1": 0.238
-    }
-  },
-  "c1.medium": {
-    "type": "c1.medium",
-    "cpus": 2,
-    "memory": 1.7,
-    "storage": 350,
-    "SSD": false,
-    "cpuUnits": 2048,
-    "memoryUnits": 1740.8,
-    "price": {
-      "us-west-2": 0.13,
-      "us-east-1": 0.13,
-      "ap-northeast-1": 0.158,
-      "ap-southeast-1": 0.164,
-      "us-west-1": 0.148,
-      "ap-southeast-2": 0.164,
-      "eu-west-1": 0.148
-    }
-  },
-  "r3.4xlarge": {
-    "type": "r3.4xlarge",
-    "cpus": 16,
-    "memory": 122,
-    "storage": 320,
-    "SSD": true,
-    "cpuUnits": 16384,
-    "memoryUnits": 124928,
-    "price": {
-      "eu-central-1": 1.6,
-      "ap-northeast-2": 1.596,
-      "ap-south-1": 1.516,
-      "us-west-1": 1.482,
-      "us-west-2": 1.33,
-      "eu-west-1": 1.482,
-      "ap-southeast-2": 1.596,
-      "ap-southeast-1": 1.596,
-      "us-east-1": 1.33,
-      "ap-northeast-1": 1.596,
-      "us-east-2": 1.33
-    }
-  },
-  "m1.medium": {
-    "type": "m1.medium",
-    "cpus": 1,
-    "memory": 3.75,
-    "storage": 410,
-    "SSD": false,
-    "cpuUnits": 1024,
-    "memoryUnits": 3840,
-    "price": {
-      "ap-southeast-2": 0.117,
-      "us-west-2": 0.087,
-      "eu-west-1": 0.095,
-      "ap-northeast-1": 0.122,
-      "us-east-1": 0.087,
-      "us-west-1": 0.095,
-      "ap-southeast-1": 0.117
     }
   },
   "t2.medium": {
@@ -1500,7 +1611,9 @@
       "ap-southeast-2": 0.064,
       "us-west-2": 0.047,
       "ap-northeast-1": 0.064,
+      "us-gov-west-1": 0.056,
       "eu-central-1": 0.054,
+      "sa-east-1": 0.081,
       "ap-south-1": 0.059,
       "eu-west-1": 0.05,
       "eu-west-2": 0.052,
@@ -1528,12 +1641,14 @@
       "ap-south-1": 0.015,
       "ap-southeast-1": 0.015,
       "us-east-2": 0.012,
+      "sa-east-1": 0.02,
       "us-west-1": 0.015,
       "ca-central-1": 0.013,
       "ap-northeast-1": 0.016,
       "eu-west-2": 0.014,
       "eu-west-1": 0.013,
-      "us-west-2": 0.012
+      "us-west-2": 0.012,
+      "us-gov-west-1": 0.014
     }
   },
   "hs1.8xlarge": {
@@ -1547,6 +1662,7 @@
     "price": {
       "eu-west-1": 4.9,
       "ap-southeast-1": 5.57,
+      "us-gov-west-1": 5.52,
       "us-west-2": 4.6,
       "ap-southeast-2": 5.57,
       "ap-northeast-1": 5.4,

@@ -9,6 +9,7 @@
     "memoryUnits": 15616,
     "price": {
       "eu-west-2": 0.181,
+      "us-gov-west-1": 0.188,
       "us-east-1": 0.156,
       "us-west-2": 0.156,
       "eu-west-1": 0.172,
@@ -17,6 +18,7 @@
       "us-east-2": 0.156,
       "ap-northeast-1": 0.183,
       "ap-south-1": 0.177,
+      "sa-east-1": 0.286,
       "ca-central-1": 0.172,
       "eu-central-1": 0.186,
       "ap-southeast-1": 0.187,
@@ -34,7 +36,9 @@
     "price": {
       "ap-southeast-2": 0.374,
       "us-east-2": 0.312,
+      "sa-east-1": 0.572,
       "ap-northeast-1": 0.366,
+      "us-gov-west-1": 0.376,
       "us-west-1": 0.344,
       "ap-northeast-2": 0.366,
       "eu-west-1": 0.344,
@@ -60,10 +64,12 @@
       "us-west-2": 0.624,
       "eu-west-2": 0.724,
       "ap-southeast-2": 0.748,
+      "us-gov-west-1": 0.752,
       "ap-northeast-2": 0.732,
       "ap-southeast-1": 0.748,
       "us-east-1": 0.624,
       "eu-west-1": 0.688,
+      "sa-east-1": 1.144,
       "ap-northeast-1": 0.732,
       "eu-central-1": 0.744,
       "us-west-1": 0.688,
@@ -92,7 +98,9 @@
       "ap-northeast-1": 1.464,
       "ap-southeast-2": 1.496,
       "ca-central-1": 1.376,
-      "eu-west-1": 1.376
+      "us-gov-west-1": 1.504,
+      "eu-west-1": 1.376,
+      "sa-east-1": 2.288
     }
   },
   {
@@ -112,11 +120,13 @@
       "eu-central-1": 2.976,
       "ap-northeast-2": 2.928,
       "us-west-2": 2.496,
+      "us-gov-west-1": 3.008,
       "us-east-2": 2.496,
       "eu-west-1": 2.752,
       "ap-southeast-2": 2.992,
       "ap-south-1": 2.832,
-      "ap-northeast-1": 2.928
+      "ap-northeast-1": 2.928,
+      "sa-east-1": 4.576
     }
   },
   {
@@ -128,12 +138,14 @@
     "cpuUnits": 65536,
     "memoryUnits": 499712,
     "price": {
+      "sa-east-1": 9.152,
       "us-east-2": 4.992,
       "us-east-1": 4.992,
       "ap-southeast-1": 5.984,
       "ca-central-1": 5.504,
       "ap-southeast-2": 5.984,
       "us-west-1": 5.504,
+      "us-gov-west-1": 6.016,
       "eu-west-1": 5.504,
       "ap-northeast-1": 5.856,
       "eu-central-1": 5.952,
