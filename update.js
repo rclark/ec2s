@@ -90,6 +90,9 @@ got.get('https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/curre
   .then((data) => extractData(data))
   .then((data) => {
     const families = {};
+
+    fs.writeFile(path.join(__dirname, 'data.json'), JSON.stringify(data, null, 2));
+
     Object.keys(data).forEach((type) => {
       fs.writeFile(path.join(__dirname, `${type}.json`), JSON.stringify(data[type], null, 2));
       const family = type.split('.')[0];
