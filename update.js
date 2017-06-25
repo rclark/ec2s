@@ -33,7 +33,7 @@ const i3shim = {
 };
 
 const extractData = (priceData) => {
-  return Object.keys(priceData.products).reduce((byType, key) => {
+  const data = Object.keys(priceData.products).reduce((byType, key) => {
     const product = priceData.products[key];
 
     if (product.productFamily !== 'Compute Instance' || product.attributes.operatingSystem !== 'Linux')
@@ -85,6 +85,22 @@ const extractData = (priceData) => {
 
     return byType;
   }, {});
+
+  const sorted = {};
+
+  Object.keys(data)
+    .sort()
+    .forEach((type) => {
+      sorted[type] = data[type];
+      sorted[type].price = Object.keys(data[type].price)
+        .sort()
+        .reduce((price, region) => {
+          price[region] = data[type].price[region];
+          return price;
+        }, {});
+    });
+
+  return sorted;
 };
 
 got.get('https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json')

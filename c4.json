@@ -8,21 +8,21 @@
     "cpuUnits": 2048,
     "memoryUnits": 3840,
     "price": {
-      "us-west-2": 0.1,
+      "ap-northeast-1": 0.126,
+      "ap-northeast-2": 0.114,
       "ap-south-1": 0.11,
       "ap-southeast-1": 0.115,
-      "us-west-1": 0.124,
-      "sa-east-1": 0.155,
-      "eu-west-1": 0.113,
-      "ap-northeast-1": 0.126,
-      "us-east-2": 0.1,
-      "ca-central-1": 0.11,
-      "eu-west-2": 0.119,
-      "ap-northeast-2": 0.114,
-      "eu-central-1": 0.114,
       "ap-southeast-2": 0.13,
+      "ca-central-1": 0.11,
+      "eu-central-1": 0.114,
+      "eu-west-1": 0.113,
+      "eu-west-2": 0.119,
+      "sa-east-1": 0.155,
+      "us-east-1": 0.1,
+      "us-east-2": 0.1,
       "us-gov-west-1": 0.12,
-      "us-east-1": 0.1
+      "us-west-1": 0.124,
+      "us-west-2": 0.1
     }
   },
   {
@@ -34,21 +34,21 @@
     "cpuUnits": 4096,
     "memoryUnits": 7680,
     "price": {
-      "sa-east-1": 0.309,
+      "ap-northeast-1": 0.252,
       "ap-northeast-2": 0.227,
       "ap-south-1": 0.22,
       "ap-southeast-1": 0.231,
-      "eu-central-1": 0.227,
-      "us-gov-west-1": 0.239,
-      "us-west-1": 0.249,
-      "eu-west-1": 0.226,
-      "eu-west-2": 0.237,
-      "us-west-2": 0.199,
-      "us-east-2": 0.199,
-      "us-east-1": 0.199,
       "ap-southeast-2": 0.261,
       "ca-central-1": 0.218,
-      "ap-northeast-1": 0.252
+      "eu-central-1": 0.227,
+      "eu-west-1": 0.226,
+      "eu-west-2": 0.237,
+      "sa-east-1": 0.309,
+      "us-east-1": 0.199,
+      "us-east-2": 0.199,
+      "us-gov-west-1": 0.239,
+      "us-west-1": 0.249,
+      "us-west-2": 0.199
     }
   },
   {
@@ -61,20 +61,20 @@
     "memoryUnits": 15360,
     "price": {
       "ap-northeast-1": 0.504,
-      "eu-west-1": 0.453,
-      "us-gov-west-1": 0.479,
-      "us-east-1": 0.398,
-      "ap-southeast-1": 0.462,
       "ap-northeast-2": 0.454,
-      "us-east-2": 0.398,
       "ap-south-1": 0.439,
-      "us-west-2": 0.398,
+      "ap-southeast-1": 0.462,
       "ap-southeast-2": 0.522,
       "ca-central-1": 0.438,
-      "sa-east-1": 0.618,
-      "eu-west-2": 0.476,
       "eu-central-1": 0.454,
-      "us-west-1": 0.498
+      "eu-west-1": 0.453,
+      "eu-west-2": 0.476,
+      "sa-east-1": 0.618,
+      "us-east-1": 0.398,
+      "us-east-2": 0.398,
+      "us-gov-west-1": 0.479,
+      "us-west-1": 0.498,
+      "us-west-2": 0.398
     }
   },
   {
@@ -86,21 +86,21 @@
     "cpuUnits": 16384,
     "memoryUnits": 30720,
     "price": {
-      "ap-northeast-2": 0.907,
       "ap-northeast-1": 1.008,
-      "ap-southeast-2": 1.042,
-      "us-gov-west-1": 0.958,
-      "eu-central-1": 0.909,
-      "us-east-1": 0.796,
-      "sa-east-1": 1.235,
+      "ap-northeast-2": 0.907,
       "ap-south-1": 0.878,
-      "eu-west-2": 0.95,
       "ap-southeast-1": 0.924,
-      "us-west-1": 0.997,
+      "ap-southeast-2": 1.042,
+      "ca-central-1": 0.876,
+      "eu-central-1": 0.909,
       "eu-west-1": 0.905,
+      "eu-west-2": 0.95,
+      "sa-east-1": 1.235,
+      "us-east-1": 0.796,
       "us-east-2": 0.796,
-      "us-west-2": 0.796,
-      "ca-central-1": 0.876
+      "us-gov-west-1": 0.958,
+      "us-west-1": 0.997,
+      "us-west-2": 0.796
     }
   },
   {
@@ -112,21 +112,21 @@
     "cpuUnits": 36864,
     "memoryUnits": 61440,
     "price": {
-      "us-west-2": 1.591,
       "ap-northeast-1": 2.016,
       "ap-northeast-2": 1.815,
-      "ap-southeast-2": 2.085,
-      "eu-west-2": 1.902,
-      "us-east-2": 1.591,
-      "ca-central-1": 1.75,
-      "ap-southeast-1": 1.848,
-      "us-east-1": 1.591,
       "ap-south-1": 1.756,
-      "eu-west-1": 1.811,
-      "sa-east-1": 2.47,
+      "ap-southeast-1": 1.848,
+      "ap-southeast-2": 2.085,
+      "ca-central-1": 1.75,
       "eu-central-1": 1.817,
+      "eu-west-1": 1.811,
+      "eu-west-2": 1.902,
+      "sa-east-1": 2.47,
+      "us-east-1": 1.591,
+      "us-east-2": 1.591,
       "us-gov-west-1": 1.915,
-      "us-west-1": 1.993
+      "us-west-1": 1.993,
+      "us-west-2": 1.591
     }
   }
 ]
