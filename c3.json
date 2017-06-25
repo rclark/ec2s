@@ -1,0 +1,102 @@
+[
+  {
+    "type": "c3.large",
+    "price": {
+      "ap-southeast-2": 0.132,
+      "us-west-1": 0.12,
+      "ap-northeast-1": 0.128,
+      "us-east-1": 0.105,
+      "ap-southeast-1": 0.132,
+      "eu-west-1": 0.12,
+      "us-west-2": 0.105,
+      "eu-central-1": 0.129,
+      "ap-northeast-2": 0.115
+    },
+    "cpus": 2,
+    "memory": 3.75,
+    "storage": 32,
+    "SSD": true,
+    "cpuUnits": 2048,
+    "memoryUnits": 3840
+  },
+  {
+    "type": "c3.xlarge",
+    "price": {
+      "ap-northeast-1": 0.255,
+      "us-east-1": 0.21,
+      "us-west-2": 0.21,
+      "ap-southeast-2": 0.265,
+      "us-west-1": 0.239,
+      "ap-northeast-2": 0.23,
+      "eu-west-1": 0.239,
+      "eu-central-1": 0.258,
+      "ap-southeast-1": 0.265
+    },
+    "cpus": 4,
+    "memory": 7.5,
+    "storage": 80,
+    "SSD": true,
+    "cpuUnits": 4096,
+    "memoryUnits": 7680
+  },
+  {
+    "type": "c3.2xlarge",
+    "price": {
+      "us-east-1": 0.42,
+      "us-west-2": 0.42,
+      "ap-northeast-1": 0.511,
+      "ap-northeast-2": 0.46,
+      "us-west-1": 0.478,
+      "ap-southeast-2": 0.529,
+      "ap-southeast-1": 0.529,
+      "eu-west-1": 0.478,
+      "eu-central-1": 0.516
+    },
+    "cpus": 8,
+    "memory": 15,
+    "storage": 160,
+    "SSD": true,
+    "cpuUnits": 8192,
+    "memoryUnits": 15360
+  },
+  {
+    "type": "c3.4xlarge",
+    "price": {
+      "ap-northeast-2": 0.919,
+      "eu-west-1": 0.956,
+      "ap-northeast-1": 1.021,
+      "ap-southeast-1": 1.058,
+      "eu-central-1": 1.032,
+      "us-west-1": 0.956,
+      "us-west-2": 0.84,
+      "ap-southeast-2": 1.058,
+      "us-east-1": 0.84
+    },
+    "cpus": 16,
+    "memory": 30,
+    "storage": 320,
+    "SSD": true,
+    "cpuUnits": 16384,
+    "memoryUnits": 30720
+  },
+  {
+    "type": "c3.8xlarge",
+    "price": {
+      "us-west-1": 1.912,
+      "eu-central-1": 2.064,
+      "ap-southeast-2": 2.117,
+      "us-west-2": 1.68,
+      "ap-northeast-2": 1.839,
+      "eu-west-1": 1.912,
+      "us-east-1": 1.68,
+      "ap-southeast-1": 2.117,
+      "ap-northeast-1": 2.043
+    },
+    "cpus": 32,
+    "memory": 60,
+    "storage": 640,
+    "SSD": true,
+    "cpuUnits": 32768,
+    "memoryUnits": 61440
+  }
+]

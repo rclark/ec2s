@@ -88,6 +88,22 @@ const extractData = (priceData) => {
 got.get('https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json')
   .then((response) => JSON.parse(response.body))
   .then((data) => extractData(data))
-  .then((data) => Object.keys(data).forEach((type) => {
-    fs.writeFile(path.join(__dirname, `${type}.json`), JSON.stringify(data[type], null, 2));
-  }));
+  .then((data) => {
+    const families = {};
+    Object.keys(data).forEach((type) => {
+      fs.writeFile(path.join(__dirname, `${type}.json`), JSON.stringify(data[type], null, 2));
+      const family = type.split('.')[0];
+      families[family] = families[family] || [];
+      families[family].push(Object.assign({ type }, data[type]));
+    });
+
+    Object.keys(families).forEach((family) => {
+      const data = families[family]
+        .sort((a, b) => {
+          if (a.cpus > b.cpus) return 1;
+          if (a.cpus < b.cpus) return -1;
+          return 0;
+        });
+      fs.writeFile(path.join(__dirname, `${family}.json`), JSON.stringify(data, null, 2));
+    });
+  });

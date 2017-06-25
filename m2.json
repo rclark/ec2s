@@ -1,0 +1,56 @@
+[
+  {
+    "type": "m2.xlarge",
+    "price": {
+      "eu-west-1": 0.275,
+      "us-west-1": 0.275,
+      "ap-southeast-2": 0.296,
+      "ap-northeast-1": 0.287,
+      "ap-southeast-1": 0.296,
+      "us-east-1": 0.245,
+      "us-west-2": 0.245
+    },
+    "cpus": 2,
+    "memory": 17.1,
+    "storage": 420,
+    "SSD": false,
+    "cpuUnits": 2048,
+    "memoryUnits": 17510.4
+  },
+  {
+    "type": "m2.2xlarge",
+    "price": {
+      "us-east-1": 0.49,
+      "ap-northeast-1": 0.575,
+      "ap-southeast-2": 0.592,
+      "eu-west-1": 0.55,
+      "ap-southeast-1": 0.592,
+      "us-west-1": 0.55,
+      "us-west-2": 0.49
+    },
+    "cpus": 4,
+    "memory": 34.2,
+    "storage": 850,
+    "SSD": false,
+    "cpuUnits": 4096,
+    "memoryUnits": 35020.8
+  },
+  {
+    "type": "m2.4xlarge",
+    "price": {
+      "us-east-1": 0.98,
+      "ap-southeast-1": 1.183,
+      "us-west-1": 1.1,
+      "ap-southeast-2": 1.183,
+      "us-west-2": 0.98,
+      "eu-west-1": 1.1,
+      "ap-northeast-1": 1.15
+    },
+    "cpus": 8,
+    "memory": 68.4,
+    "storage": 1680,
+    "SSD": false,
+    "cpuUnits": 8192,
+    "memoryUnits": 70041.6
+  }
+]
