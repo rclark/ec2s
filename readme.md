@@ -7,3 +7,7 @@ https://rclark.github.io/ec2s/${instance-type}.json
 ```
 
 For example, data for [x1.16xlarge instances is here](https://rclark.github.io/ec2s/x1.16xlarge.json).
+
+---
+
+Update pricing data by running `npm run update` and committing the result.

@@ -21,6 +21,15 @@ const regions = {
   'South America (São Paulo)': 'sa-east-1'
 };
 
+const i3shim = {
+  'i3.large': 486.4,
+  'i3.xlarge': 972.8,
+  'i3.2xlarge': 1945.6,
+  'i3.4xlarge': 3891.2,
+  'i3.8xlarge': 7782.4,
+  'i3.16xlarge': 15564.8
+};
+
 const extractData = (priceData) => {
   return Object.keys(priceData.products).reduce((byType, key) => {
     const product = priceData.products[key];
@@ -48,20 +57,24 @@ const extractData = (priceData) => {
     const cpuUnits = cpus * 1024;
 
     const memoryString = product.attributes.memory;
-    const gbMemory = Number(memoryString.split(' ')[0].replace(',', ''));
-    const memoryUnits = gbMemory * 1024;
+    const memory = Number(memoryString.split(' ')[0].replace(',', ''));
+    const memoryUnits = memory * 1024;
 
     const storageString = product.attributes.storage;
-    let gbStorage = 0;
-    const isSSD = /SSD$/.test(storageString);
+    let storage = 0;
     if (storageString !== 'EBS only') {
-      gbStorage = Number(storageString.split(' x ')[0]) *
-                  Number(storageString.split(' x ')[1]
-                    .replace(/ SSD| HDD|,/g, ''));
+      storage = Number(storageString.split(' x ')[0]) *
+                Number(storageString.split(' x ')[1]
+                  .replace(/ SSD| HDD|,/g, ''));
     }
+    if (/^i3\./.test(type)) storage = i3shim[type];
+
+    let SSD = /SSD$/.test(storageString);
+    if (/^x1\./.test(type)) SSD = true;
+    if (/^i3\./.test(type)) SSD = true;
 
     Object.assign(byType[type], {
-      cpus, gbMemory, gbStorage, isSSD, cpuUnits, memoryUnits
+      cpus, memory, storage, SSD, cpuUnits, memoryUnits
     });
 
     const price = parseFloat(priceString);
