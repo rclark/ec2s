@@ -94,7 +94,13 @@ const extractData = (priceData) => {
   const sorted = {};
 
   Object.keys(data)
-    .sort()
+    .sort((a, b) => {
+      if (a.split('.') > b.split('.')) return 1;
+      if (a.split('.') < b.split('.')) return -1;
+      if (data[a].cpus > data[b].cpus) return 1;
+      if (data[a].cpus < data[b].cpus) return -1;
+      return 0;
+    })
     .forEach((type) => {
       sorted[type] = data[type];
       sorted[type].price = Object.keys(data[type].price)
@@ -172,6 +178,8 @@ const addSpotData = (data) => {
   let completed = 0;
   let total = 0;
 
+  const title = () => `Analyzing 7-day spot history: ${(100 * (completed / total)).toFixed(2)}% complete`;
+
   Object.keys(data).forEach((type) => {
     Object.keys((data[type].price)).forEach((region) => {
       if (region === 'us-gov-west-1') return;
@@ -180,7 +188,7 @@ const addSpotData = (data) => {
         queue.add(
           () => spot(type, region, data[type].price[region]).then((data) => {
             completed++;
-            spinner.setSpinnerTitle(`Analyzing spot history: ${(100 * (completed / total)).toFixed(2)}% complete`);
+            spinner.setSpinnerTitle(title());
             return data;
           })
         )
@@ -189,7 +197,7 @@ const addSpotData = (data) => {
   });
 
   total = requests.length;
-  spinner.setSpinnerTitle(`Analyzing spot history: ${(100 * (completed / total)).toFixed(2)}% complete`);
+  spinner.setSpinnerTitle(title());
   spinner.start();
 
   return Promise.all(requests).then((results) => {
