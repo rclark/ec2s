@@ -8,5 +8,57 @@
   "memoryUnits": 999424,
   "price": {
     "us-east-1": 13.2
+  },
+  "spot": {
+    "us-east-1": {
+      "overall": {
+        "min": 1.32,
+        "max": 132,
+        "mean": 53.873382,
+        "variance": 4052.446569,
+        "over": 296,
+        "count": 742
+      },
+      "1d": {
+        "min": 1.32,
+        "max": 132,
+        "mean": 60.55112,
+        "variance": 4222.708482,
+        "over": 67,
+        "count": 148
+      },
+      "1a": {
+        "min": 1.32,
+        "max": 132,
+        "mean": 9.436293,
+        "variance": 739.917053,
+        "over": 7,
+        "count": 150
+      },
+      "1c": {
+        "min": 1.32,
+        "max": 132,
+        "mean": 66.66,
+        "variance": 4269.3156,
+        "over": 74,
+        "count": 148
+      },
+      "1e": {
+        "min": 1.32,
+        "max": 132,
+        "mean": 66.66,
+        "variance": 4269.3156,
+        "over": 74,
+        "count": 148
+      },
+      "1b": {
+        "min": 1.32,
+        "max": 132,
+        "mean": 66.66,
+        "variance": 4269.3156,
+        "over": 74,
+        "count": 148
+      }
+    }
   }
 }
