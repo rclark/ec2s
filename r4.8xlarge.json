@@ -1,4 +1,11 @@
 {
+  "type": "r4.8xlarge",
+  "cpus": 32,
+  "memory": 244,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 32768,
+  "memoryUnits": 249856,
   "price": {
     "us-west-2": 2.128,
     "ap-northeast-2": 2.56,
@@ -13,11 +20,5 @@
     "eu-west-1": 2.3712,
     "ap-southeast-1": 2.56,
     "ap-south-1": 2.432
-  },
-  "cpus": 32,
-  "memory": 244,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 32768,
-  "memoryUnits": 249856
+  }
 }

@@ -1,4 +1,11 @@
 {
+  "type": "m1.large",
+  "cpus": 2,
+  "memory": 7.5,
+  "storage": 840,
+  "SSD": false,
+  "cpuUnits": 2048,
+  "memoryUnits": 7680,
   "price": {
     "us-west-2": 0.175,
     "us-west-1": 0.19,
@@ -7,11 +14,5 @@
     "ap-southeast-1": 0.233,
     "eu-west-1": 0.19,
     "ap-southeast-2": 0.233
-  },
-  "cpus": 2,
-  "memory": 7.5,
-  "storage": 840,
-  "SSD": false,
-  "cpuUnits": 2048,
-  "memoryUnits": 7680
+  }
 }

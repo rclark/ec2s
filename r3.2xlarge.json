@@ -1,4 +1,11 @@
 {
+  "type": "r3.2xlarge",
+  "cpus": 8,
+  "memory": 61,
+  "storage": 160,
+  "SSD": true,
+  "cpuUnits": 8192,
+  "memoryUnits": 62464,
   "price": {
     "ap-southeast-2": 0.798,
     "us-east-2": 0.665,
@@ -11,11 +18,5 @@
     "eu-west-1": 0.741,
     "ap-northeast-2": 0.798,
     "us-west-1": 0.741
-  },
-  "cpus": 8,
-  "memory": 61,
-  "storage": 160,
-  "SSD": true,
-  "cpuUnits": 8192,
-  "memoryUnits": 62464
+  }
 }

@@ -1,4 +1,11 @@
 {
+  "type": "c3.8xlarge",
+  "cpus": 32,
+  "memory": 60,
+  "storage": 640,
+  "SSD": true,
+  "cpuUnits": 32768,
+  "memoryUnits": 61440,
   "price": {
     "us-west-1": 1.912,
     "eu-central-1": 2.064,
@@ -9,11 +16,5 @@
     "us-east-1": 1.68,
     "ap-southeast-1": 2.117,
     "ap-northeast-1": 2.043
-  },
-  "cpus": 32,
-  "memory": 60,
-  "storage": 640,
-  "SSD": true,
-  "cpuUnits": 32768,
-  "memoryUnits": 61440
+  }
 }

@@ -1,6 +1,12 @@
 [
   {
     "type": "m3.medium",
+    "cpus": 1,
+    "memory": 3.75,
+    "storage": 4,
+    "SSD": true,
+    "cpuUnits": 1024,
+    "memoryUnits": 3840,
     "price": {
       "ap-southeast-1": 0.098,
       "us-east-1": 0.067,
@@ -11,16 +17,16 @@
       "eu-west-1": 0.073,
       "ap-northeast-1": 0.096,
       "us-west-1": 0.077
-    },
-    "cpus": 1,
-    "memory": 3.75,
-    "storage": 4,
-    "SSD": true,
-    "cpuUnits": 1024,
-    "memoryUnits": 3840
+    }
   },
   {
     "type": "m3.large",
+    "cpus": 2,
+    "memory": 7.5,
+    "storage": 32,
+    "SSD": true,
+    "cpuUnits": 2048,
+    "memoryUnits": 7680,
     "price": {
       "ap-northeast-1": 0.193,
       "us-west-1": 0.154,
@@ -31,16 +37,16 @@
       "ap-northeast-2": 0.183,
       "eu-central-1": 0.158,
       "ap-southeast-1": 0.196
-    },
-    "cpus": 2,
-    "memory": 7.5,
-    "storage": 32,
-    "SSD": true,
-    "cpuUnits": 2048,
-    "memoryUnits": 7680
+    }
   },
   {
     "type": "m3.xlarge",
+    "cpus": 4,
+    "memory": 15,
+    "storage": 80,
+    "SSD": true,
+    "cpuUnits": 4096,
+    "memoryUnits": 15360,
     "price": {
       "ap-northeast-1": 0.385,
       "ap-southeast-1": 0.392,
@@ -51,16 +57,16 @@
       "eu-west-1": 0.293,
       "us-east-1": 0.266,
       "ap-southeast-2": 0.372
-    },
-    "cpus": 4,
-    "memory": 15,
-    "storage": 80,
-    "SSD": true,
-    "cpuUnits": 4096,
-    "memoryUnits": 15360
+    }
   },
   {
     "type": "m3.2xlarge",
+    "cpus": 8,
+    "memory": 30,
+    "storage": 160,
+    "SSD": true,
+    "cpuUnits": 8192,
+    "memoryUnits": 30720,
     "price": {
       "ap-northeast-1": 0.77,
       "eu-west-1": 0.585,
@@ -71,12 +77,6 @@
       "eu-central-1": 0.632,
       "ap-southeast-1": 0.784,
       "us-west-2": 0.532
-    },
-    "cpus": 8,
-    "memory": 30,
-    "storage": 160,
-    "SSD": true,
-    "cpuUnits": 8192,
-    "memoryUnits": 30720
+    }
   }
 ]

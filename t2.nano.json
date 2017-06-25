@@ -1,4 +1,11 @@
 {
+  "type": "t2.nano",
+  "cpus": 1,
+  "memory": 0.5,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 1024,
+  "memoryUnits": 512,
   "price": {
     "us-west-2": 0.0059,
     "eu-west-2": 0.0066,
@@ -13,11 +20,5 @@
     "ap-northeast-2": 0.008,
     "ap-southeast-2": 0.008,
     "us-east-2": 0.0059
-  },
-  "cpus": 1,
-  "memory": 0.5,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 1024,
-  "memoryUnits": 512
+  }
 }

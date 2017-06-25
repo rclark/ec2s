@@ -1,4 +1,11 @@
 {
+  "type": "i3.16xlarge",
+  "cpus": 64,
+  "memory": 488,
+  "storage": 15564.8,
+  "SSD": true,
+  "cpuUnits": 65536,
+  "memoryUnits": 499712,
   "price": {
     "us-east-2": 4.992,
     "us-east-1": 4.992,
@@ -13,11 +20,5 @@
     "ap-south-1": 5.664,
     "us-west-2": 4.992,
     "eu-west-2": 5.792
-  },
-  "cpus": 64,
-  "memory": 488,
-  "storage": 15564.8,
-  "SSD": true,
-  "cpuUnits": 65536,
-  "memoryUnits": 499712
+  }
 }

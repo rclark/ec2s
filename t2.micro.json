@@ -1,4 +1,11 @@
 {
+  "type": "t2.micro",
+  "cpus": 1,
+  "memory": 1,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 1024,
+  "memoryUnits": 1024,
   "price": {
     "eu-central-1": 0.014,
     "ap-northeast-2": 0.016,
@@ -13,11 +20,5 @@
     "eu-west-2": 0.014,
     "eu-west-1": 0.013,
     "us-west-2": 0.012
-  },
-  "cpus": 1,
-  "memory": 1,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 1024,
-  "memoryUnits": 1024
+  }
 }

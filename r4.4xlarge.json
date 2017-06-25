@@ -1,4 +1,11 @@
 {
+  "type": "r4.4xlarge",
+  "cpus": 16,
+  "memory": 122,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 16384,
+  "memoryUnits": 124928,
   "price": {
     "ap-southeast-1": 1.28,
     "eu-west-2": 1.248,
@@ -13,11 +20,5 @@
     "ap-northeast-2": 1.28,
     "ap-southeast-2": 1.2768,
     "eu-central-1": 1.2804
-  },
-  "cpus": 16,
-  "memory": 122,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 16384,
-  "memoryUnits": 124928
+  }
 }

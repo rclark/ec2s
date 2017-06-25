@@ -1,4 +1,11 @@
 {
+  "type": "d2.8xlarge",
+  "cpus": 36,
+  "memory": 244,
+  "storage": 48000,
+  "SSD": false,
+  "cpuUnits": 36864,
+  "memoryUnits": 249856,
   "price": {
     "ap-northeast-2": 6.752,
     "eu-central-1": 6.352,
@@ -13,11 +20,5 @@
     "us-west-2": 5.52,
     "us-east-2": 5.52,
     "eu-west-1": 5.88
-  },
-  "cpus": 36,
-  "memory": 244,
-  "storage": 48000,
-  "SSD": false,
-  "cpuUnits": 36864,
-  "memoryUnits": 249856
+  }
 }

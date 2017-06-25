@@ -1,4 +1,11 @@
 {
+  "type": "t2.medium",
+  "cpus": 2,
+  "memory": 4,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 2048,
+  "memoryUnits": 4096,
   "price": {
     "ap-southeast-2": 0.064,
     "us-west-2": 0.047,
@@ -13,11 +20,5 @@
     "ap-southeast-1": 0.06,
     "ca-central-1": 0.052,
     "us-east-2": 0.047
-  },
-  "cpus": 2,
-  "memory": 4,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 2048,
-  "memoryUnits": 4096
+  }
 }

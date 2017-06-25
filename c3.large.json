@@ -1,4 +1,11 @@
 {
+  "type": "c3.large",
+  "cpus": 2,
+  "memory": 3.75,
+  "storage": 32,
+  "SSD": true,
+  "cpuUnits": 2048,
+  "memoryUnits": 3840,
   "price": {
     "ap-southeast-2": 0.132,
     "us-west-1": 0.12,
@@ -9,11 +16,5 @@
     "us-west-2": 0.105,
     "eu-central-1": 0.129,
     "ap-northeast-2": 0.115
-  },
-  "cpus": 2,
-  "memory": 3.75,
-  "storage": 32,
-  "SSD": true,
-  "cpuUnits": 2048,
-  "memoryUnits": 3840
+  }
 }

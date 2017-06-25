@@ -1,4 +1,11 @@
 {
+  "type": "i3.xlarge",
+  "cpus": 4,
+  "memory": 30.5,
+  "storage": 972.8,
+  "SSD": true,
+  "cpuUnits": 4096,
+  "memoryUnits": 31232,
   "price": {
     "ap-southeast-2": 0.374,
     "us-east-2": 0.312,
@@ -13,11 +20,5 @@
     "us-east-1": 0.312,
     "ap-south-1": 0.354,
     "ca-central-1": 0.344
-  },
-  "cpus": 4,
-  "memory": 30.5,
-  "storage": 972.8,
-  "SSD": true,
-  "cpuUnits": 4096,
-  "memoryUnits": 31232
+  }
 }

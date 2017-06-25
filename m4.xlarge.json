@@ -1,4 +1,11 @@
 {
+  "type": "m4.xlarge",
+  "cpus": 4,
+  "memory": 16,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 4096,
+  "memoryUnits": 16384,
   "price": {
     "us-west-2": 0.2,
     "eu-west-2": 0.232,
@@ -13,11 +20,5 @@
     "eu-central-1": 0.24,
     "us-east-1": 0.2,
     "ap-northeast-1": 0.258
-  },
-  "cpus": 4,
-  "memory": 16,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 4096,
-  "memoryUnits": 16384
+  }
 }

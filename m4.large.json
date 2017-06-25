@@ -1,4 +1,11 @@
 {
+  "type": "m4.large",
+  "cpus": 2,
+  "memory": 8,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 2048,
+  "memoryUnits": 8192,
   "price": {
     "ap-northeast-1": 0.129,
     "ap-south-1": 0.123,
@@ -13,11 +20,5 @@
     "us-west-2": 0.1,
     "us-west-1": 0.117,
     "ca-central-1": 0.111
-  },
-  "cpus": 2,
-  "memory": 8,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 2048,
-  "memoryUnits": 8192
+  }
 }

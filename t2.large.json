@@ -1,4 +1,11 @@
 {
+  "type": "t2.large",
+  "cpus": 2,
+  "memory": 8,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 2048,
+  "memoryUnits": 8192,
   "price": {
     "ap-southeast-1": 0.12,
     "us-east-1": 0.094,
@@ -13,11 +20,5 @@
     "us-west-1": 0.122,
     "ap-northeast-2": 0.128,
     "ca-central-1": 0.103
-  },
-  "cpus": 2,
-  "memory": 8,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 2048,
-  "memoryUnits": 8192
+  }
 }

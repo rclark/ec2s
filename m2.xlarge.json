@@ -1,4 +1,11 @@
 {
+  "type": "m2.xlarge",
+  "cpus": 2,
+  "memory": 17.1,
+  "storage": 420,
+  "SSD": false,
+  "cpuUnits": 2048,
+  "memoryUnits": 17510.4,
   "price": {
     "eu-west-1": 0.275,
     "us-west-1": 0.275,
@@ -7,11 +14,5 @@
     "ap-southeast-1": 0.296,
     "us-east-1": 0.245,
     "us-west-2": 0.245
-  },
-  "cpus": 2,
-  "memory": 17.1,
-  "storage": 420,
-  "SSD": false,
-  "cpuUnits": 2048,
-  "memoryUnits": 17510.4
+  }
 }

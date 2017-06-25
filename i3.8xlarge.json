@@ -1,4 +1,11 @@
 {
+  "type": "i3.8xlarge",
+  "cpus": 32,
+  "memory": 244,
+  "storage": 7782.4,
+  "SSD": true,
+  "cpuUnits": 32768,
+  "memoryUnits": 249856,
   "price": {
     "ca-central-1": 2.752,
     "eu-west-2": 2.896,
@@ -13,11 +20,5 @@
     "ap-southeast-2": 2.992,
     "ap-south-1": 2.832,
     "ap-northeast-1": 2.928
-  },
-  "cpus": 32,
-  "memory": 244,
-  "storage": 7782.4,
-  "SSD": true,
-  "cpuUnits": 32768,
-  "memoryUnits": 249856
+  }
 }

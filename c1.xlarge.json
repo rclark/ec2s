@@ -1,4 +1,11 @@
 {
+  "type": "c1.xlarge",
+  "cpus": 8,
+  "memory": 7,
+  "storage": 1680,
+  "SSD": false,
+  "cpuUnits": 8192,
+  "memoryUnits": 7168,
   "price": {
     "eu-west-1": 0.592,
     "us-west-2": 0.52,
@@ -7,11 +14,5 @@
     "us-west-1": 0.592,
     "ap-southeast-2": 0.655,
     "ap-northeast-1": 0.632
-  },
-  "cpus": 8,
-  "memory": 7,
-  "storage": 1680,
-  "SSD": false,
-  "cpuUnits": 8192,
-  "memoryUnits": 7168
+  }
 }

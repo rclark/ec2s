@@ -1,4 +1,11 @@
 {
+  "type": "c4.4xlarge",
+  "cpus": 16,
+  "memory": 30,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 16384,
+  "memoryUnits": 30720,
   "price": {
     "ap-northeast-2": 0.907,
     "ap-northeast-1": 1.008,
@@ -13,11 +20,5 @@
     "us-east-2": 0.796,
     "us-west-2": 0.796,
     "ca-central-1": 0.876
-  },
-  "cpus": 16,
-  "memory": 30,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 16384,
-  "memoryUnits": 30720
+  }
 }

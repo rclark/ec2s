@@ -1,4 +1,11 @@
 {
+  "type": "i2.4xlarge",
+  "cpus": 16,
+  "memory": 122,
+  "storage": 3200,
+  "SSD": true,
+  "cpuUnits": 16384,
+  "memoryUnits": 124928,
   "price": {
     "us-east-1": 3.41,
     "ap-northeast-2": 4.002,
@@ -11,11 +18,5 @@
     "ap-south-1": 3.867,
     "us-west-2": 3.41,
     "us-west-1": 3.751
-  },
-  "cpus": 16,
-  "memory": 122,
-  "storage": 3200,
-  "SSD": true,
-  "cpuUnits": 16384,
-  "memoryUnits": 124928
+  }
 }

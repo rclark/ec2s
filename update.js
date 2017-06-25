@@ -73,9 +73,9 @@ const extractData = (priceData) => {
     if (/^x1\./.test(type)) SSD = true;
     if (/^i3\./.test(type)) SSD = true;
 
-    Object.assign(byType[type], {
-      cpus, memory, storage, SSD, cpuUnits, memoryUnits
-    });
+    byType[type] = Object.assign({
+      type, cpus, memory, storage, SSD, cpuUnits, memoryUnits
+    }, byType[type]);
 
     const price = parseFloat(priceString);
     const previous = byType[type].price[region] || 0;
@@ -94,7 +94,7 @@ got.get('https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/curre
       fs.writeFile(path.join(__dirname, `${type}.json`), JSON.stringify(data[type], null, 2));
       const family = type.split('.')[0];
       families[family] = families[family] || [];
-      families[family].push(Object.assign({ type }, data[type]));
+      families[family].push(data[type]);
     });
 
     Object.keys(families).forEach((family) => {

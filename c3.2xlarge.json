@@ -1,4 +1,11 @@
 {
+  "type": "c3.2xlarge",
+  "cpus": 8,
+  "memory": 15,
+  "storage": 160,
+  "SSD": true,
+  "cpuUnits": 8192,
+  "memoryUnits": 15360,
   "price": {
     "us-east-1": 0.42,
     "us-west-2": 0.42,
@@ -9,11 +16,5 @@
     "ap-southeast-1": 0.529,
     "eu-west-1": 0.478,
     "eu-central-1": 0.516
-  },
-  "cpus": 8,
-  "memory": 15,
-  "storage": 160,
-  "SSD": true,
-  "cpuUnits": 8192,
-  "memoryUnits": 15360
+  }
 }

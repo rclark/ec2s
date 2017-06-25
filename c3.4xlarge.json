@@ -1,4 +1,11 @@
 {
+  "type": "c3.4xlarge",
+  "cpus": 16,
+  "memory": 30,
+  "storage": 320,
+  "SSD": true,
+  "cpuUnits": 16384,
+  "memoryUnits": 30720,
   "price": {
     "ap-northeast-2": 0.919,
     "eu-west-1": 0.956,
@@ -9,11 +16,5 @@
     "us-west-2": 0.84,
     "ap-southeast-2": 1.058,
     "us-east-1": 0.84
-  },
-  "cpus": 16,
-  "memory": 30,
-  "storage": 320,
-  "SSD": true,
-  "cpuUnits": 16384,
-  "memoryUnits": 30720
+  }
 }

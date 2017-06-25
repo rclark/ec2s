@@ -1,4 +1,11 @@
 {
+  "type": "c4.8xlarge",
+  "cpus": 36,
+  "memory": 60,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 36864,
+  "memoryUnits": 61440,
   "price": {
     "us-west-2": 1.591,
     "ap-northeast-1": 2.016,
@@ -13,11 +20,5 @@
     "eu-west-1": 1.811,
     "eu-central-1": 1.817,
     "us-west-1": 1.993
-  },
-  "cpus": 36,
-  "memory": 60,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 36864,
-  "memoryUnits": 61440
+  }
 }

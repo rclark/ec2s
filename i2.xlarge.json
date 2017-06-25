@@ -1,4 +1,11 @@
 {
+  "type": "i2.xlarge",
+  "cpus": 4,
+  "memory": 30.5,
+  "storage": 800,
+  "SSD": true,
+  "cpuUnits": 4096,
+  "memoryUnits": 31232,
   "price": {
     "us-west-2": 0.853,
     "ap-southeast-1": 1.018,
@@ -11,11 +18,5 @@
     "ap-southeast-2": 1.018,
     "us-east-1": 0.853,
     "eu-west-1": 0.938
-  },
-  "cpus": 4,
-  "memory": 30.5,
-  "storage": 800,
-  "SSD": true,
-  "cpuUnits": 4096,
-  "memoryUnits": 31232
+  }
 }

@@ -1,15 +1,16 @@
 {
+  "type": "p2.16xlarge",
+  "cpus": 64,
+  "memory": 768,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 65536,
+  "memoryUnits": 786432,
   "price": {
     "us-west-2": 14.4,
     "ap-northeast-1": 24.672,
     "eu-west-1": 15.552,
     "us-east-1": 14.4,
     "ap-southeast-2": 24.672
-  },
-  "cpus": 64,
-  "memory": 768,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 65536,
-  "memoryUnits": 786432
+  }
 }

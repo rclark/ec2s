@@ -1,50 +1,50 @@
 [
   {
     "type": "p2.xlarge",
+    "cpus": 4,
+    "memory": 61,
+    "storage": 0,
+    "SSD": false,
+    "cpuUnits": 4096,
+    "memoryUnits": 62464,
     "price": {
       "ap-southeast-2": 1.542,
       "eu-west-1": 0.972,
       "us-east-1": 0.9,
       "us-west-2": 0.9,
       "ap-northeast-1": 1.542
-    },
-    "cpus": 4,
-    "memory": 61,
-    "storage": 0,
-    "SSD": false,
-    "cpuUnits": 4096,
-    "memoryUnits": 62464
+    }
   },
   {
     "type": "p2.8xlarge",
+    "cpus": 32,
+    "memory": 488,
+    "storage": 0,
+    "SSD": false,
+    "cpuUnits": 32768,
+    "memoryUnits": 499712,
     "price": {
       "ap-northeast-1": 12.336,
       "us-east-1": 7.2,
       "us-west-2": 7.2,
       "eu-west-1": 7.776,
       "ap-southeast-2": 12.336
-    },
-    "cpus": 32,
-    "memory": 488,
-    "storage": 0,
-    "SSD": false,
-    "cpuUnits": 32768,
-    "memoryUnits": 499712
+    }
   },
   {
     "type": "p2.16xlarge",
+    "cpus": 64,
+    "memory": 768,
+    "storage": 0,
+    "SSD": false,
+    "cpuUnits": 65536,
+    "memoryUnits": 786432,
     "price": {
       "us-west-2": 14.4,
       "ap-northeast-1": 24.672,
       "eu-west-1": 15.552,
       "us-east-1": 14.4,
       "ap-southeast-2": 24.672
-    },
-    "cpus": 64,
-    "memory": 768,
-    "storage": 0,
-    "SSD": false,
-    "cpuUnits": 65536,
-    "memoryUnits": 786432
+    }
   }
 ]

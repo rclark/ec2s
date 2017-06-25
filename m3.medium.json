@@ -1,4 +1,11 @@
 {
+  "type": "m3.medium",
+  "cpus": 1,
+  "memory": 3.75,
+  "storage": 4,
+  "SSD": true,
+  "cpuUnits": 1024,
+  "memoryUnits": 3840,
   "price": {
     "ap-southeast-1": 0.098,
     "us-east-1": 0.067,
@@ -9,11 +16,5 @@
     "eu-west-1": 0.073,
     "ap-northeast-1": 0.096,
     "us-west-1": 0.077
-  },
-  "cpus": 1,
-  "memory": 3.75,
-  "storage": 4,
-  "SSD": true,
-  "cpuUnits": 1024,
-  "memoryUnits": 3840
+  }
 }

@@ -1,4 +1,11 @@
 {
+  "type": "d2.4xlarge",
+  "cpus": 16,
+  "memory": 122,
+  "storage": 24000,
+  "SSD": false,
+  "cpuUnits": 16384,
+  "memoryUnits": 124928,
   "price": {
     "ca-central-1": 3.036,
     "eu-west-2": 3.087,
@@ -13,11 +20,5 @@
     "eu-central-1": 3.176,
     "ap-northeast-2": 3.376,
     "us-west-1": 3.125
-  },
-  "cpus": 16,
-  "memory": 122,
-  "storage": 24000,
-  "SSD": false,
-  "cpuUnits": 16384,
-  "memoryUnits": 124928
+  }
 }

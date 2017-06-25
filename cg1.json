@@ -1,15 +1,15 @@
 [
   {
     "type": "cg1.4xlarge",
-    "price": {
-      "eu-west-1": 2.36,
-      "us-east-1": 2.1
-    },
     "cpus": 16,
     "memory": 22.5,
     "storage": 1680,
     "SSD": false,
     "cpuUnits": 16384,
-    "memoryUnits": 23040
+    "memoryUnits": 23040,
+    "price": {
+      "eu-west-1": 2.36,
+      "us-east-1": 2.1
+    }
   }
 ]

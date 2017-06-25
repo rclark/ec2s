@@ -1,4 +1,11 @@
 {
+  "type": "c4.large",
+  "cpus": 2,
+  "memory": 3.75,
+  "storage": 0,
+  "SSD": false,
+  "cpuUnits": 2048,
+  "memoryUnits": 3840,
   "price": {
     "us-west-2": 0.1,
     "ap-south-1": 0.11,
@@ -13,11 +20,5 @@
     "eu-central-1": 0.114,
     "ap-southeast-2": 0.13,
     "us-east-1": 0.1
-  },
-  "cpus": 2,
-  "memory": 3.75,
-  "storage": 0,
-  "SSD": false,
-  "cpuUnits": 2048,
-  "memoryUnits": 3840
+  }
 }

@@ -1,4 +1,11 @@
 {
+  "type": "m1.small",
+  "cpus": 1,
+  "memory": 1.7,
+  "storage": 160,
+  "SSD": false,
+  "cpuUnits": 1024,
+  "memoryUnits": 1740.8,
   "price": {
     "us-east-1": 0.044,
     "us-west-1": 0.047,
@@ -7,11 +14,5 @@
     "ap-southeast-1": 0.058,
     "ap-southeast-2": 0.058,
     "us-west-2": 0.044
-  },
-  "cpus": 1,
-  "memory": 1.7,
-  "storage": 160,
-  "SSD": false,
-  "cpuUnits": 1024,
-  "memoryUnits": 1740.8
+  }
 }

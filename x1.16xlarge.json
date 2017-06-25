@@ -1,4 +1,11 @@
 {
+  "type": "x1.16xlarge",
+  "cpus": 64,
+  "memory": 976,
+  "storage": 1920,
+  "SSD": true,
+  "cpuUnits": 65536,
+  "memoryUnits": 999424,
   "price": {
     "eu-west-1": 8.003,
     "us-west-2": 6.669,
@@ -12,11 +19,5 @@
     "eu-central-1": 9.337,
     "ap-southeast-1": 9.671,
     "ap-south-1": 9.187
-  },
-  "cpus": 64,
-  "memory": 976,
-  "storage": 1920,
-  "SSD": true,
-  "cpuUnits": 65536,
-  "memoryUnits": 999424
+  }
 }
