@@ -40,7 +40,7 @@ const Resources = {
       Code: {
         ZipFile: cf.join('\n', [
           'const AWS = require("aws-sdk");',
-          'module.exports = (event, context, callback) => {',
+          'module.exports.lambda = (event, context, callback) => {',
           '  const codebuild = new AWS.CodeBuild();',
           '  codebuild.startBuild({',
           '    projectName: process.env.PROJECT_NAME,',
