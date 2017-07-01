@@ -9,12 +9,14 @@
     "update": "node ./update.js"
   },
   "devDependencies": {
+    "@mapbox/cloudfriend": "^1.8.1",
     "eslint": "^4.1.0",
     "eslint-plugin-node": "^5.0.0"
   },
   "dependencies": {
     "aws-sdk": "^2.77.0",
     "cli-spinner": "^0.2.6",
+    "decrypt-kms-env": "^3.0.0",
     "got": "^7.0.0",
     "p-queue": "^1.0.0",
     "simple-statistics": "^4.1.0"
