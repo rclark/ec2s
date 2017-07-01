@@ -69,7 +69,7 @@ const Resources = {
       Name: cf.stackName,
       ScheduleExpression: 'rate(7 days)',
       Targets: [{ Arn: cf.getAtt('Trigger', 'Arn'), Id: 'Trigger' }],
-      State: 'DISABLED'
+      State: 'ENABLED'
     }
   },
   BuildRole: {
