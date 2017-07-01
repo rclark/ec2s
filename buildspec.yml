@@ -2,8 +2,11 @@ version: 0.2
 
 phases:
   install:
-    - npm install
+    commands:
+      - npm install
   build:
-    - npm run-script update
+    commands:
+      - npm run-script update
   post_build:
-    - eval $(./node_modules/.bin/decrypt-kms-env) && git -am "$(date -I)" && git remote add ec2s https://${GITHUB_ACCESS_TOKEN}@github.com/rclark/ec2s && git push --set-upstream ec2s gh-pages
+    commands:
+      - eval $(./node_modules/.bin/decrypt-kms-env) && git -am "$(date -I)" && git remote add ec2s https://${GITHUB_ACCESS_TOKEN}@github.com/rclark/ec2s && git push --set-upstream ec2s gh-pages
