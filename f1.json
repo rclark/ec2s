@@ -8,9 +8,45 @@
     "cpuUnits": 8192,
     "memoryUnits": 124928,
     "price": {
-      "us-east-1": 1.65
+      "eu-west-1": 1.815,
+      "us-east-1": 1.65,
+      "us-west-2": 1.65
     },
     "spot": {
+      "eu-west-1": {
+        "overall": {
+          "min": 0.1919,
+          "max": 18.15,
+          "mean": 0.420286,
+          "variance": 2.013535,
+          "over": 3,
+          "count": 474
+        },
+        "1a": {
+          "min": 0.232,
+          "max": 18.15,
+          "mean": 0.837933,
+          "variance": 7.334745,
+          "over": 3,
+          "count": 126
+        },
+        "1c": {
+          "min": 0.2157,
+          "max": 0.4398,
+          "mean": 0.269408,
+          "variance": 0.000787,
+          "over": 0,
+          "count": 165
+        },
+        "1b": {
+          "min": 0.1919,
+          "max": 0.3365,
+          "mean": 0.268762,
+          "variance": 0.000942,
+          "over": 0,
+          "count": 183
+        }
+      },
       "us-east-1": {
         "overall": {
           "min": null,
@@ -19,6 +55,40 @@
           "variance": null,
           "over": null,
           "count": 0
+        }
+      },
+      "us-west-2": {
+        "overall": {
+          "min": 0.1805,
+          "max": 0.5265,
+          "mean": 0.266168,
+          "variance": 0.001389,
+          "over": 0,
+          "count": 539
+        },
+        "2c": {
+          "min": 0.1828,
+          "max": 0.3601,
+          "mean": 0.270941,
+          "variance": 0.000677,
+          "over": 0,
+          "count": 188
+        },
+        "2b": {
+          "min": 0.1805,
+          "max": 0.5265,
+          "mean": 0.266175,
+          "variance": 0.003321,
+          "over": 0,
+          "count": 153
+        },
+        "2a": {
+          "min": 0.1932,
+          "max": 0.3601,
+          "mean": 0.26163,
+          "variance": 0.000531,
+          "over": 0,
+          "count": 198
         }
       }
     }
@@ -32,9 +102,45 @@
     "cpuUnits": 65536,
     "memoryUnits": 999424,
     "price": {
-      "us-east-1": 13.2
+      "eu-west-1": 14.52,
+      "us-east-1": 13.2,
+      "us-west-2": 13.2
     },
     "spot": {
+      "eu-west-1": {
+        "overall": {
+          "min": 145.2,
+          "max": 145.2,
+          "mean": 145.2,
+          "variance": 0,
+          "over": 30,
+          "count": 30
+        },
+        "1c": {
+          "min": 145.2,
+          "max": 145.2,
+          "mean": 145.2,
+          "variance": 0,
+          "over": 10,
+          "count": 10
+        },
+        "1a": {
+          "min": 145.2,
+          "max": 145.2,
+          "mean": 145.2,
+          "variance": 0,
+          "over": 10,
+          "count": 10
+        },
+        "1b": {
+          "min": 145.2,
+          "max": 145.2,
+          "mean": 145.2,
+          "variance": 0,
+          "over": 10,
+          "count": 10
+        }
+      },
       "us-east-1": {
         "overall": {
           "min": null,
@@ -43,6 +149,40 @@
           "variance": null,
           "over": null,
           "count": 0
+        }
+      },
+      "us-west-2": {
+        "overall": {
+          "min": 1.32,
+          "max": 132,
+          "mean": 23.324257,
+          "variance": 2339.599788,
+          "over": 1520,
+          "count": 9194
+        },
+        "2c": {
+          "min": 1.32,
+          "max": 2.7779,
+          "mean": 1.853668,
+          "variance": 0.289527,
+          "over": 0,
+          "count": 3065
+        },
+        "2b": {
+          "min": 1.32,
+          "max": 3.0279,
+          "mean": 1.979923,
+          "variance": 0.438651,
+          "over": 0,
+          "count": 3088
+        },
+        "2a": {
+          "min": 1.32,
+          "max": 132,
+          "mean": 66.638514,
+          "variance": 4269.315138,
+          "over": 1520,
+          "count": 3041
         }
       }
     }

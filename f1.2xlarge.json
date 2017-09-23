@@ -7,9 +7,45 @@
   "cpuUnits": 8192,
   "memoryUnits": 124928,
   "price": {
-    "us-east-1": 1.65
+    "eu-west-1": 1.815,
+    "us-east-1": 1.65,
+    "us-west-2": 1.65
   },
   "spot": {
+    "eu-west-1": {
+      "overall": {
+        "min": 0.1919,
+        "max": 18.15,
+        "mean": 0.420286,
+        "variance": 2.013535,
+        "over": 3,
+        "count": 474
+      },
+      "1a": {
+        "min": 0.232,
+        "max": 18.15,
+        "mean": 0.837933,
+        "variance": 7.334745,
+        "over": 3,
+        "count": 126
+      },
+      "1c": {
+        "min": 0.2157,
+        "max": 0.4398,
+        "mean": 0.269408,
+        "variance": 0.000787,
+        "over": 0,
+        "count": 165
+      },
+      "1b": {
+        "min": 0.1919,
+        "max": 0.3365,
+        "mean": 0.268762,
+        "variance": 0.000942,
+        "over": 0,
+        "count": 183
+      }
+    },
     "us-east-1": {
       "overall": {
         "min": null,
@@ -18,6 +54,40 @@
         "variance": null,
         "over": null,
         "count": 0
+      }
+    },
+    "us-west-2": {
+      "overall": {
+        "min": 0.1805,
+        "max": 0.5265,
+        "mean": 0.266168,
+        "variance": 0.001389,
+        "over": 0,
+        "count": 539
+      },
+      "2c": {
+        "min": 0.1828,
+        "max": 0.3601,
+        "mean": 0.270941,
+        "variance": 0.000677,
+        "over": 0,
+        "count": 188
+      },
+      "2b": {
+        "min": 0.1805,
+        "max": 0.5265,
+        "mean": 0.266175,
+        "variance": 0.003321,
+        "over": 0,
+        "count": 153
+      },
+      "2a": {
+        "min": 0.1932,
+        "max": 0.3601,
+        "mean": 0.26163,
+        "variance": 0.000531,
+        "over": 0,
+        "count": 198
       }
     }
   }
