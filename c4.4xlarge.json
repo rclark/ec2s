@@ -9,7 +9,7 @@
   "price": {
     "ap-northeast-1": 1.008,
     "ap-northeast-2": 0.907,
-    "ap-south-1": 0.878,
+    "ap-south-1": 0.8,
     "ap-southeast-1": 0.924,
     "ap-southeast-2": 1.042,
     "ca-central-1": 0.876,
@@ -26,208 +26,208 @@
   "spot": {
     "ap-northeast-1": {
       "overall": {
-        "min": 0.2305,
-        "max": 0.2963,
-        "mean": 0.255961,
-        "variance": 0.000447,
+        "min": 0.2369,
+        "max": 0.345,
+        "mean": 0.286906,
+        "variance": 0.001877,
         "over": 0,
-        "count": 56
-      },
-      "1a": {
-        "min": 0.2531,
-        "max": 0.2963,
-        "mean": 0.273583,
-        "variance": 0.000162,
-        "over": 0,
-        "count": 30
+        "count": 51
       },
       "1b": {
-        "min": 0.2331,
+        "min": 0.2369,
         "max": 0.2369,
-        "mean": 0.236142,
-        "variance": 0.000002,
+        "mean": 0.2369,
+        "variance": 0,
         "over": 0,
-        "count": 12
+        "count": 10
       },
       "1c": {
-        "min": 0.2305,
+        "min": 0.2369,
         "max": 0.2369,
-        "mean": 0.235186,
-        "variance": 0.000005,
+        "mean": 0.2369,
+        "variance": 0,
         "over": 0,
-        "count": 14
+        "count": 11
+      },
+      "1a": {
+        "min": 0.2963,
+        "max": 0.345,
+        "mean": 0.32191,
+        "variance": 0.000215,
+        "over": 0,
+        "count": 30
       }
     },
     "ap-northeast-2": {
       "overall": {
-        "min": 0.1775,
-        "max": 0.21,
-        "mean": 0.182934,
-        "variance": 0.000023,
+        "min": 0.2067,
+        "max": 0.2223,
+        "mean": 0.214551,
+        "variance": 0.000011,
         "over": 0,
-        "count": 1076
+        "count": 55
       },
       "2c": {
-        "min": 0.1775,
-        "max": 0.2067,
-        "mean": 0.18081,
-        "variance": 0.000012,
+        "min": 0.2067,
+        "max": 0.2223,
+        "mean": 0.215249,
+        "variance": 0.000015,
         "over": 0,
-        "count": 719
+        "count": 37
       },
       "2a": {
-        "min": 0.1797,
-        "max": 0.21,
-        "mean": 0.187212,
-        "variance": 0.000017,
+        "min": 0.21,
+        "max": 0.2134,
+        "mean": 0.213117,
+        "variance": 0.000001,
         "over": 0,
-        "count": 357
+        "count": 18
       }
     },
     "ap-south-1": {
       "overall": {
-        "min": 0.1514,
-        "max": 0.3119,
-        "mean": 0.240309,
-        "variance": 0.005433,
+        "min": 0.1761,
+        "max": 0.2664,
+        "mean": 0.220522,
+        "variance": 0.000868,
         "over": 0,
-        "count": 513
-      },
-      "1a": {
-        "min": 0.2664,
-        "max": 0.3119,
-        "mean": 0.305441,
-        "variance": 0.000068,
-        "over": 0,
-        "count": 287
+        "count": 93
       },
       "1b": {
-        "min": 0.1514,
-        "max": 0.1761,
-        "mean": 0.157596,
-        "variance": 0.000017,
+        "min": 0.1761,
+        "max": 0.2055,
+        "mean": 0.191236,
+        "variance": 0.000074,
         "over": 0,
-        "count": 226
+        "count": 44
+      },
+      "1a": {
+        "min": 0.2293,
+        "max": 0.2664,
+        "mean": 0.246818,
+        "variance": 0.000119,
+        "over": 0,
+        "count": 49
       }
     },
     "ap-southeast-1": {
       "overall": {
-        "min": 0.2395,
-        "max": 0.2571,
-        "mean": 0.247875,
-        "variance": 0.000035,
+        "min": 0.2361,
+        "max": 0.2599,
+        "mean": 0.249064,
+        "variance": 0.000065,
         "over": 0,
-        "count": 67
+        "count": 72
       },
       "1a": {
-        "min": 0.2501,
-        "max": 0.2571,
-        "mean": 0.253444,
-        "variance": 0.000003,
-        "over": 0,
-        "count": 32
-      },
-      "1b": {
-        "min": 0.2395,
-        "max": 0.2492,
-        "mean": 0.242783,
-        "variance": 0.000011,
+        "min": 0.2522,
+        "max": 0.2599,
+        "mean": 0.25706,
+        "variance": 0.000004,
         "over": 0,
         "count": 35
+      },
+      "1b": {
+        "min": 0.2361,
+        "max": 0.2473,
+        "mean": 0.2415,
+        "variance": 0.000006,
+        "over": 0,
+        "count": 37
       }
     },
     "ap-southeast-2": {
       "overall": {
         "min": 0.2453,
-        "max": 0.24534,
-        "mean": 0.245319,
+        "max": 0.2453,
+        "mean": 0.2453,
         "variance": 0,
         "over": 0,
-        "count": 590
+        "count": 33
       },
       "2b": {
         "min": 0.2453,
-        "max": 0.24534,
-        "mean": 0.245318,
+        "max": 0.2453,
+        "mean": 0.2453,
         "variance": 0,
         "over": 0,
-        "count": 102
+        "count": 11
       },
       "2c": {
         "min": 0.2453,
-        "max": 0.24534,
-        "mean": 0.245319,
+        "max": 0.2453,
+        "mean": 0.2453,
         "variance": 0,
         "over": 0,
-        "count": 317
+        "count": 11
       },
       "2a": {
         "min": 0.2453,
-        "max": 0.24534,
-        "mean": 0.245319,
+        "max": 0.2453,
+        "mean": 0.2453,
         "variance": 0,
         "over": 0,
-        "count": 171
+        "count": 11
       }
     },
     "ca-central-1": {
       "overall": {
-        "min": 0.20586,
-        "max": 0.2493,
-        "mean": 0.21471,
-        "variance": 0.000067,
+        "min": 0.2059,
+        "max": 0.2461,
+        "mean": 0.225067,
+        "variance": 0.000156,
         "over": 0,
-        "count": 1035
+        "count": 58
       },
       "1b": {
-        "min": 0.20586,
+        "min": 0.2059,
         "max": 0.2059,
-        "mean": 0.205881,
+        "mean": 0.2059,
         "variance": 0,
         "over": 0,
-        "count": 427
+        "count": 15
       },
       "1a": {
-        "min": 0.2165,
-        "max": 0.2493,
-        "mean": 0.220911,
-        "variance": 0.000021,
+        "min": 0.224,
+        "max": 0.2461,
+        "mean": 0.231753,
+        "variance": 0.000037,
         "over": 0,
-        "count": 608
+        "count": 43
       }
     },
     "eu-central-1": {
       "overall": {
-        "min": 0.2621,
-        "max": 0.3141,
-        "mean": 0.288347,
-        "variance": 0.000182,
+        "min": 0.2361,
+        "max": 0.2692,
+        "mean": 0.2491,
+        "variance": 0.000093,
         "over": 0,
-        "count": 105
-      },
-      "1c": {
-        "min": 0.2692,
-        "max": 0.3141,
-        "mean": 0.292422,
-        "variance": 0.000175,
-        "over": 0,
-        "count": 36
+        "count": 79
       },
       "1b": {
-        "min": 0.2621,
-        "max": 0.3066,
-        "mean": 0.285272,
-        "variance": 0.000178,
+        "min": 0.2361,
+        "max": 0.2621,
+        "mean": 0.247554,
+        "variance": 0.000072,
         "over": 0,
-        "count": 36
+        "count": 26
       },
       "1a": {
-        "min": 0.2646,
-        "max": 0.3082,
-        "mean": 0.287255,
-        "variance": 0.000164,
+        "min": 0.2361,
+        "max": 0.2646,
+        "mean": 0.248615,
+        "variance": 0.000089,
         "over": 0,
-        "count": 33
+        "count": 26
+      },
+      "1c": {
+        "min": 0.2361,
+        "max": 0.2692,
+        "mean": 0.251056,
+        "variance": 0.000111,
+        "over": 0,
+        "count": 27
       }
     },
     "eu-west-1": {
@@ -266,62 +266,62 @@
     },
     "eu-west-2": {
       "overall": {
-        "min": 0.1903,
-        "max": 0.226,
-        "mean": 0.19838,
-        "variance": 0.000052,
+        "min": 0.2236,
+        "max": 0.2514,
+        "mean": 0.234849,
+        "variance": 0.000057,
         "over": 0,
-        "count": 410
-      },
-      "2a": {
-        "min": 0.1903,
-        "max": 0.2236,
-        "mean": 0.205974,
-        "variance": 0.000096,
-        "over": 0,
-        "count": 42
+        "count": 90
       },
       "2b": {
-        "min": 0.1923,
-        "max": 0.226,
-        "mean": 0.197513,
-        "variance": 0.00004,
+        "min": 0.226,
+        "max": 0.2514,
+        "mean": 0.240044,
+        "variance": 0.000053,
         "over": 0,
-        "count": 368
+        "count": 45
+      },
+      "2a": {
+        "min": 0.2236,
+        "max": 0.2333,
+        "mean": 0.229653,
+        "variance": 0.000006,
+        "over": 0,
+        "count": 45
       }
     },
     "sa-east-1": {
       "overall": {
-        "min": 0.162078,
-        "max": 0.1914,
-        "mean": 0.165995,
-        "variance": 0.000025,
+        "min": 0.1881,
+        "max": 0.2232,
+        "mean": 0.205046,
+        "variance": 0.00008,
         "over": 0,
-        "count": 739
-      },
-      "1b": {
-        "min": 0.163982,
-        "max": 0.1914,
-        "mean": 0.165943,
-        "variance": 0.000021,
-        "over": 0,
-        "count": 295
-      },
-      "1c": {
-        "min": 0.1637,
-        "max": 0.1911,
-        "mean": 0.167176,
-        "variance": 0.000048,
-        "over": 0,
-        "count": 127
+        "count": 100
       },
       "1a": {
-        "min": 0.162078,
-        "max": 0.1881,
-        "mean": 0.16557,
-        "variance": 0.000019,
+        "min": 0.1881,
+        "max": 0.2189,
+        "mean": 0.202631,
+        "variance": 0.000074,
         "over": 0,
-        "count": 317
+        "count": 32
+      },
+      "1c": {
+        "min": 0.1911,
+        "max": 0.2232,
+        "mean": 0.20585,
+        "variance": 0.000081,
+        "over": 0,
+        "count": 34
+      },
+      "1b": {
+        "min": 0.1914,
+        "max": 0.2221,
+        "mean": 0.206515,
+        "variance": 0.000076,
+        "over": 0,
+        "count": 34
       }
     },
     "us-east-1": {
@@ -336,70 +336,70 @@
     },
     "us-east-2": {
       "overall": {
-        "min": 0.1513,
-        "max": 0.1666,
-        "mean": 0.154444,
-        "variance": 0.000006,
+        "min": 0.161,
+        "max": 0.1889,
+        "mean": 0.174066,
+        "variance": 0.000049,
         "over": 0,
-        "count": 1265
-      },
-      "2c": {
-        "min": 0.1526,
-        "max": 0.161,
-        "mean": 0.153822,
-        "variance": 0.000002,
-        "over": 0,
-        "count": 162
+        "count": 133
       },
       "2a": {
-        "min": 0.1567,
-        "max": 0.1666,
-        "mean": 0.158104,
-        "variance": 0.000003,
+        "min": 0.1666,
+        "max": 0.1809,
+        "mean": 0.174702,
+        "variance": 0.000021,
         "over": 0,
-        "count": 316
+        "count": 42
       },
       "2b": {
-        "min": 0.1513,
-        "max": 0.1625,
-        "mean": 0.153102,
-        "variance": 0.000001,
+        "min": 0.1625,
+        "max": 0.1889,
+        "mean": 0.176926,
+        "variance": 0.000067,
         "over": 0,
-        "count": 787
+        "count": 46
+      },
+      "2c": {
+        "min": 0.161,
+        "max": 0.1804,
+        "mean": 0.170549,
+        "variance": 0.000036,
+        "over": 0,
+        "count": 45
       }
     },
     "us-west-1": {
       "overall": {
-        "min": 0.2191,
-        "max": 0.3285,
-        "mean": 0.285436,
-        "variance": 0.000984,
+        "min": 0.2464,
+        "max": 0.3279,
+        "mean": 0.298868,
+        "variance": 0.000627,
         "over": 0,
-        "count": 1588
-      },
-      "1c": {
-        "min": 0.304,
-        "max": 0.3285,
-        "mean": 0.309013,
-        "variance": 0.000005,
-        "over": 0,
-        "count": 802
+        "count": 95
       },
       "1b": {
-        "min": 0.2767,
-        "max": 0.3082,
-        "mean": 0.282092,
-        "variance": 0.000016,
+        "min": 0.2965,
+        "max": 0.3124,
+        "mean": 0.307228,
+        "variance": 0.000017,
         "over": 0,
-        "count": 516
+        "count": 32
+      },
+      "1c": {
+        "min": 0.3177,
+        "max": 0.3279,
+        "mean": 0.322597,
+        "variance": 0.000007,
+        "over": 0,
+        "count": 32
       },
       "1a": {
-        "min": 0.2191,
-        "max": 0.2464,
-        "mean": 0.221793,
-        "variance": 0.000018,
+        "min": 0.2464,
+        "max": 0.2861,
+        "mean": 0.265745,
+        "variance": 0.000147,
         "over": 0,
-        "count": 270
+        "count": 31
       }
     },
     "us-west-2": {
